@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "baked_potato",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "custom_item": true,
+                    "id": "expension:french_fries"
+                  },
+                  "item_model": "expension:french_fries",
+                  "item_name": {
+                    "translate": "item.expension.french_fries"
+                  },
+                  "food": {
+                    "nutrition": 5,
+                    "saturation": 6,
+                    "can_always_eat": false
+                  },
+                  "consumable": {
+                    "on_consume_effects": [
+                      {
+                        "type": "apply_effects",
+                        "effects": [
+                          {
+                            "id": "regeneration",
+                            "amplifier": 0,
+                            "duration": 200,
+                            "show_particles": false,
+                            "show_icon": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  }

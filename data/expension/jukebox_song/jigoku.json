@@ -1,0 +1,10 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "jukebox_song.expension.jigoku"
+  },
+  "length_in_seconds": 167.0,
+  "sound_event": {
+    "sound_id": "expension:music_disc.jigoku"
+  }
+} 

@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:smoking",
+    "category": "food",
+    "cookingtime": 100,
+    "experience": 0.35,
+    "ingredient": "#minecraft:eggs",
+    "result": {
+      "id": "minecraft:cooked_chicken",
+      "components": {
+        "custom_data": {
+          "custom_item": true,
+          "id": "expension:fried_egg"
+        },
+        "item_model": "expension:fried_egg",
+        "item_name": {
+          "translate": "item.expension.fried_egg"
+        },
+        "food": {
+          "nutrition": 3,
+          "saturation": 2,
+          "can_always_eat": false
+        },
+        "consumable": {
+          "on_consume_effects": [
+            {
+              "type": "apply_effects",
+              "effects": [
+                {
+                  "id": "regeneration",
+                  "amplifier": 0,
+                  "duration": 100,
+                  "show_particles": false,
+                  "show_icon": true
+                }
+              ]
+            }
+          ]
+        },
+        "max_stack_size": 16
+      }
+    }
+  }

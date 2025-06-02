@@ -1,0 +1,11 @@
+{
+    "music_disc.jigoku":
+    {
+        "sounds": [
+            {
+                "name": "expension:records/jigoku",
+                "stream": true
+            }
+        ]
+    }
+}

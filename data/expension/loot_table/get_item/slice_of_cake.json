@@ -1,0 +1,34 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "pumpkin_pie",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "custom_item": true,
+                    "id": "expension:slice_of_cake"
+                  },
+                  "item_model": "expension:slice_of_cake",
+                  "item_name": {
+                    "translate": "item.expension.slice_of_cake"
+                  },
+                  "food": {
+                    "nutrition": 3,
+                    "saturation": 0.6,
+                    "can_always_eat": false
+                  },
+                  "max_stack_size": 16
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  }

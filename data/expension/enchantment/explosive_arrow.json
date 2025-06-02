@@ -1,0 +1,78 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "translate": "enchantment.expension.explosive_arrow"
+    },
+    "effects": {
+        "minecraft:post_attack": [
+          {
+            "affected": "victim",
+            "enchanted": "attacker",
+            "effect": {
+              "type": "minecraft:explode",
+                "large_particle": {
+                    "type": "minecraft:explosion"
+                },
+                "small_particle": {
+                    "type": "minecraft:explosion"
+                },
+                "radius": {
+                    "type": "minecraft:linear",
+                    "base": 1.2,
+                    "per_level_above_first": 0.4
+                },
+                "sound": {
+                  "sound_id": "minecraft:block.vault.break",
+                  "range": 16
+                },
+                "block_interaction": "none",
+                "attribute_to_user": false,
+                "create_fire": false,
+                "damage_type": "minecraft:arrow",
+                "knockback_multiplier": {
+                  "type": "minecraft:linear",
+                  "base": 0.24,
+                  "per_level_above_first": 0.08
+                },
+                "immune_blocks": [],
+                "offset": [0,1,0]
+            },
+            "requirements": {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "id": "minecraft:is_projectile",
+                    "expected": true
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "minecraft:item_damage": [
+          {
+            "effect": {
+              "type": "minecraft:set",
+              "value": 2
+            }
+          }
+        ] 
+    },
+    "exclusive_set": "minecraft:quick_charge",
+    "max_cost": {
+      "base": 65,
+      "per_level_above_first": 9
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 15,
+      "per_level_above_first": 9
+    },
+    "primary_items": "#minecraft:enchantable/crossbow",
+    "slots": [
+      "hand"
+    ],
+    "supported_items": "#minecraft:enchantable/crossbow",
+    "weight": 2
+  }

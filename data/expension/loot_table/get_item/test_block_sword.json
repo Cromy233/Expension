@@ -1,0 +1,28 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "diamond_sword",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "blocks_attacks": {
+                    "damage_reductions": [
+                      {
+                        "base": 0,
+                        "factor": 0.5
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  }

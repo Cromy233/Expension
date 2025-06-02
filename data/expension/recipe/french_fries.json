@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:smelting",
+    "category": "food",
+    "cookingtime": 200,
+    "experience": 0.35,
+    "ingredient": "minecraft:baked_potato",
+    "result": {
+      "id": "minecraft:baked_potato",
+      "components": {
+        "custom_data": {
+          "custom_item": true,
+          "id": "expension:french_fries"
+        },
+        "item_model": "expension:french_fries",
+        "item_name": {
+          "translate": "item.expension.french_fries"
+        },
+        "food": {
+          "nutrition": 5,
+          "saturation": 6,
+          "can_always_eat": false
+        },
+        "consumable": {
+          "on_consume_effects": [
+            {
+              "type": "apply_effects",
+              "effects": [
+                {
+                  "id": "regeneration",
+                  "amplifier": 0,
+                  "duration": 100,
+                  "show_particles": false,
+                  "show_icon": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }

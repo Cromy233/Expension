@@ -1,0 +1,7 @@
+{
+    "parent": "item/diamond_sword",
+    "ambientocclusion": true,
+    "textures": {
+        "layer0":"expension:item/wind_blade"
+    }
+}

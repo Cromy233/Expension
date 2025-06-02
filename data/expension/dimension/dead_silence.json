@@ -1,0 +1,6 @@
+{
+    "type": "expension:dead_silence",
+    "generator": {
+        "type": "minecraft:debug"
+    }
+}

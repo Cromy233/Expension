@@ -1,0 +1,29 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "music_disc_creator",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "custom_item": true,
+                    "id": "expension:disc_jigoku"
+                  },
+                  "item_model": "expension:disc_jigoku",
+                  "item_name": {
+                    "translate": "item.expension.disc_jigoku"
+                  },
+                  "jukebox_playable": "expension:jigoku"
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  }
