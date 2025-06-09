@@ -1,0 +1,21 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "translate": "enchantment.expension.parry"
+    },
+    "effects": {},
+    "max_cost": {
+      "base": 57,
+      "per_level_above_first": 24
+    },
+    "max_level": 2,
+    "min_cost": {
+      "base": 36,
+      "per_level_above_first": 20
+    },
+    "slots": [
+      "hand"
+    ],
+    "supported_items": "minecraft:shield",
+    "weight": 1
+  }

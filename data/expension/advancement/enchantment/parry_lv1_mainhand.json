@@ -1,0 +1,32 @@
+{
+    "criteria": {
+      "expension:parry_lv1_mainhand": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "blocked": true,
+            "type": {
+              "is_direct": true
+            }
+          },
+          "player": {
+            "equipment": {
+                "mainhand": {
+                    "predicates": {
+                        "enchantments": [
+                            {
+                                "enchantments": "expension:parry",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "expension:parry_lv1_mainhand"
+    }
+  }
