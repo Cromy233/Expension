@@ -9,7 +9,7 @@
     "key": {
       "A": "minecraft:resin_brick",
       "B": "minecraft:amethyst_shard",
-      "X": "minecraft:potion"
+      "X": "minecraft:glass_bottle"
     },
     "result": {
         "id": "minecraft:potion",

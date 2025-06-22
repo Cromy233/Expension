@@ -12,7 +12,7 @@
         "minecraft:prismarine_shard",
         "prismarine_crystals"
       ],
-      "X": "minecraft:potion"
+      "X": "minecraft:glass_bottle"
     },
     "result": {
         "id": "minecraft:potion",
