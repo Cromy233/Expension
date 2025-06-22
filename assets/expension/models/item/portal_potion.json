@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "ambientocclusion": true,
+    "textures": {
+        "layer0":"expension:item/portal_potion"
+    }
+}

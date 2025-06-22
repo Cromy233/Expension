@@ -1,0 +1,49 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "ABA",
+        "BXB",
+        "ABA"
+    ],
+    "key": {
+      "A": "minecraft:glowstone_dust",
+      "B": [
+        "minecraft:prismarine_shard",
+        "prismarine_crystals"
+      ],
+      "X": "minecraft:potion"
+    },
+    "result": {
+        "id": "minecraft:potion",
+        "components": {
+          "custom_data": {
+            "custom_item": true,
+            "id": "expension:recall_potion"
+          },
+          "item_model": "expension:recall_potion",
+          "item_name": {
+            "translate": "item.expension.recall_potion"
+          },
+          "consumable": {
+            "animation": "drink",
+            "has_consume_particles": false,
+            "sound": "entity.generic.drink"
+          },
+          "potion_contents": {
+            "custom_color": 3786171,
+            "custom_name": "recall",
+            "custom_effects": [
+              {
+                "id": "weakness",
+                "duration": 100,
+                "show_particles": false
+              }
+            ]
+          },
+          "enchantment_glint_override": true,
+          "max_stack_size": 16
+        },
+        "count": 4
+    }
+}

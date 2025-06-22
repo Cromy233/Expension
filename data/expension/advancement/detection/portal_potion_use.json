@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "expension:wind_blade_use": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "id": "expension:portal_potion"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:create_portal"
+    }
+}
