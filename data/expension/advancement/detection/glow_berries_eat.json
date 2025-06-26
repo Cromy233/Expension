@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "expension:chorus_fruit_eat": {
+        "expension:glow_berries_eat": {
             "trigger": "consume_item",
             "conditions": {
                 "item": {

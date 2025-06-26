@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "expension:wind_blade_use": {
+        "expension:portal_potion_use": {
             "trigger": "consume_item",
             "conditions": {
                 "item": {

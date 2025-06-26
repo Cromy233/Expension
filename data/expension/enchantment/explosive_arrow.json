@@ -59,7 +59,7 @@
           }
         ] 
     },
-    "exclusive_set": "minecraft:quick_charge",
+    "exclusive_set": "#minecraft:exclusive_set/explosive_arrow",
     "max_cost": {
       "base": 65,
       "per_level_above_first": 9

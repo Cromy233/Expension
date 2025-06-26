@@ -14,5 +14,10 @@
     "item.expension.golden_baked_potato": "金烤马铃薯",
     "enchantment.expension.parry": "招架",
     "item.minecraft.potion.effect.recall": "回溯药水",
-    "item.minecraft.potion.effect.portal": "锚定药水"
+    "item.minecraft.potion.effect.portal": "锚定药水",
+    "item.expension.inferno_whip": "炼狱长鞭",
+    "item.expension.inferno_whip.description_1": "§7在主手时:",
+    "item.expension.inferno_whip.description_2": "§2 10 攻击伤害",
+    "item.expension.inferno_whip.description_3": "§2 1 攻击速度",
+    "item.expension.inferno_whip.description_4": "§2 4 攻击距离"
 }

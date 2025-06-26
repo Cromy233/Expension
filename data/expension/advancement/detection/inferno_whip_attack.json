@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "expension:inferno_whip_attack": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_direct": true
+                    }
+                },
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "predicates": {
+                                "custom_data": {
+                                    "custom_item": true,
+                                    "id": "expension:inferno_whip"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:inferno_whip_attack"
+    }
+}

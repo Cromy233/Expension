@@ -1,0 +1,7 @@
+{
+    "parent": "item/netherite_sword",
+    "ambientocclusion": true,
+    "textures": {
+        "layer0":"expension:item/inferno_whip"
+    }
+}

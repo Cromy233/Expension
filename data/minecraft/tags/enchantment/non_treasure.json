@@ -38,7 +38,6 @@
     {"required": false,"id": "expension:explosive_arrow"},
     {"required": false,"id": "expension:long_reach"},
     {"required": false,"id": "expension:steadiness"},
-    {"required": false,"id": "expension:speed_charm"},
     {"required": false,"id": "expension:parry"}
   ]
 }

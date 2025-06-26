@@ -23,8 +23,15 @@
                     "damage_reductions": [
                       {
                         "base": 0,
-                        "factor": 0.2,
-                        "horizontal_blocking_angle": 180
+                        "factor": 0.5,
+                        "horizontal_blocking_angle": 180,
+                        "type": "#is_projectile"
+                      },
+                      {
+                        "base": 1,
+                        "factor": 0.5,
+                        "horizontal_blocking_angle": 180,
+                        "type": "fall"
                       }
                     ],
                     "disable_cooldown_scale": 1,
@@ -33,8 +40,7 @@
                       "factor": 1,
                       "threshold": 1
                     }
-                  },
-                  "enchantment_glint_override": true
+                  }
                 }
               }
             ]
