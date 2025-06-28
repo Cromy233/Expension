@@ -1,0 +1,9 @@
+execute positioned ~ ~0.5 ~ if block ~ ~ ~ #minecraft:crops[age=7] run setblock ~ ~ ~ air destroy
+execute positioned ~ ~0.5 ~1 if block ~ ~ ~ #minecraft:crops[age=7] run setblock ~ ~ ~ air destroy
+execute positioned ~ ~0.5 ~-1 if block ~ ~ ~ #minecraft:crops[age=7] run setblock ~ ~ ~ air destroy
+execute positioned ~1 ~0.5 ~ if block ~ ~ ~ #minecraft:crops[age=7] run setblock ~ ~ ~ air destroy
+execute positioned ~1 ~0.5 ~1 if block ~ ~ ~ #minecraft:crops[age=7] run setblock ~ ~ ~ air destroy
+execute positioned ~1 ~0.5 ~-1 if block ~ ~ ~ #minecraft:crops[age=7] run setblock ~ ~ ~ air destroy
+execute positioned ~-1 ~0.5 ~ if block ~ ~ ~ #minecraft:crops[age=7] run setblock ~ ~ ~ air destroy
+execute positioned ~-1 ~0.5 ~1 if block ~ ~ ~ #minecraft:crops[age=7] run setblock ~ ~ ~ air destroy
+execute positioned ~-1 ~0.5 ~-1 if block ~ ~ ~ #minecraft:crops[age=7] run setblock ~ ~ ~ air destroy

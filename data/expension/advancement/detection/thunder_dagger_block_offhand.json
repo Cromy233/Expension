@@ -1,28 +1,29 @@
 {
     "criteria": {
-        "expension:inferno_whip_attack": {
-            "trigger": "player_hurt_entity",
+        "expension:thunder_dagger_block": {
+            "trigger": "entity_hurt_player",
             "conditions": {
                 "damage": {
-                    "type": {
-                        "is_direct": true
+                    "blocked": true,
+                    "taken": {
+                        "min": 1
                     }
                 },
                 "player": {
                     "equipment": {
-                        "mainhand": {
+                        "offhand": {
                             "predicates": {
                                 "custom_data": {
-                                    "id": "expension:inferno_whip"
+                                    "id": "expension:thunder_dagger"
                                 }
                             }
-                        }
+                        } 
                     }
                 }
             }
         }
     },
     "rewards": {
-        "function": "expension:inferno_whip_attack"
+        "function": "expension:thunder_dagger_block"
     }
 }

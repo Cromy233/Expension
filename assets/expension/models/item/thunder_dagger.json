@@ -1,0 +1,7 @@
+{
+    "parent": "item/golden_sword",
+    "ambientocclusion": true,
+    "textures": {
+        "layer0":"expension:item/thunder_dagger"
+    }
+}

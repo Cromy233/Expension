@@ -1,19 +1,17 @@
 {
     "criteria": {
-        "expension:inferno_whip_attack": {
-            "trigger": "player_hurt_entity",
+        "expension:thunder_dagger_kill": {
+            "trigger": "player_killed_entity",
             "conditions": {
-                "damage": {
-                    "type": {
-                        "is_direct": true
-                    }
+                "killing_blow": {
+                    "is_direct": true
                 },
                 "player": {
                     "equipment": {
                         "mainhand": {
                             "predicates": {
                                 "custom_data": {
-                                    "id": "expension:inferno_whip"
+                                    "id": "expension:thunder_dagger"
                                 }
                             }
                         }
@@ -23,6 +21,6 @@
         }
     },
     "rewards": {
-        "function": "expension:inferno_whip_attack"
+        "function": "expension:thunder_dagger_kill"
     }
 }

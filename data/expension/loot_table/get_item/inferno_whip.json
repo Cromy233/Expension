@@ -60,13 +60,6 @@
                       "operation": "add_value",
                       "type": "minecraft:entity_interaction_range",
                       "slot": "mainhand"
-                    },
-                    {
-                      "id": "expension:inferno_whip",
-                      "amount": -0.5,
-                      "operation": "add_multiplied_total",
-                      "type": "minecraft:attack_knockback",
-                      "slot": "mainhand"
                     }
                   ],
                   "weapon": {

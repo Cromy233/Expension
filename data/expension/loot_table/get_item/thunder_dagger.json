@@ -1,0 +1,83 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:golden_sword",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "custom_item": true,
+                    "id": "expension:thunder_dagger"
+                  },
+                  "item_model": "expension:thunder_dagger",
+                  "item_name": {
+                    "translate": "item.expension.thunder_dagger"
+                  },
+                  "lore": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "translate": "item.expension.thunder_dagger.description_1"
+                    },
+                    {
+                      "translate": "item.expension.thunder_dagger.description_2"
+                    },
+                    {
+                      "translate": "item.expension.thunder_dagger.description_3"
+                    }
+                  ],
+                  "tooltip_display": {
+                    "hidden_components": [
+                      "attribute_modifiers"
+                    ]
+                  },
+                  "max_damage": 1561,
+                  "attribute_modifiers": [
+                    {
+                      "amount": 3,
+                      "id": "expension:thunder_dagger",
+                      "operation": "add_value",
+                      "type": "attack_damage",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "amount": -3,
+                      "id": "expension:thunder_dagger",
+                      "operation": "add_value",
+                      "type": "attack_speed",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "blocks_attacks": {
+                    "damage_reductions": [
+                      {
+                        "base": 0.01,
+                        "factor": 0
+                      },
+                      {
+                        "base": 0,
+                        "factor": 1,
+                        "horizontal_blocking_angle": 180,
+                        "type": "#minecraft:is_lightning"
+                      }
+                    ],
+                    "item_damage": {
+                      "base": 0,
+                      "factor": 0.5,
+                      "threshold": 1
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  }

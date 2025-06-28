@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "expension:inferno_whip_attack": {
+        "expension:inferno_whip_attack_with_fire_aspect_lv1": {
             "trigger": "player_hurt_entity",
             "conditions": {
                 "damage": {
@@ -13,7 +13,6 @@
                         "mainhand": {
                             "predicates": {
                                 "custom_data": {
-                                    "custom_item": true,
                                     "id": "expension:inferno_whip"
                                 },
                                 "enchantments": [

@@ -34,7 +34,7 @@
                         "type": "fall"
                       }
                     ],
-                    "disable_cooldown_scale": 1,
+                    "disable_cooldown_scale": 0.1,
                     "item_damage": {
                       "base": 3,
                       "factor": 1,

@@ -19,5 +19,9 @@
     "item.expension.inferno_whip.description_1": "§7在主手时:",
     "item.expension.inferno_whip.description_2": "§2 10 攻击伤害",
     "item.expension.inferno_whip.description_3": "§2 1 攻击速度",
-    "item.expension.inferno_whip.description_4": "§2 4 攻击距离"
+    "item.expension.inferno_whip.description_4": "§2 4 攻击距离",
+    "item.expension.thunder_dagger": "厉雷",
+    "item.expension.thunder_dagger.description_1": "§7在主手时:",
+    "item.expension.thunder_dagger.description_2": "§2 4 攻击伤害",
+    "item.expension.thunder_dagger.description_3": "§2 1 攻击速度"
 }

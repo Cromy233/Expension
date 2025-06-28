@@ -1,0 +1,1 @@
+execute as @e[type=#expension:mobs] run attribute @s knockback_resistance modifier remove expension:inferno_whip

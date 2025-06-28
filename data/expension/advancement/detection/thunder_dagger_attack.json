@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "expension:inferno_whip_attack_with_fire_aspect_lv2": {
+        "expension:thunder_dagger_attack": {
             "trigger": "player_hurt_entity",
             "conditions": {
                 "damage": {
@@ -13,14 +13,8 @@
                         "mainhand": {
                             "predicates": {
                                 "custom_data": {
-                                    "id": "expension:inferno_whip"
-                                },
-                                "enchantments": [
-                                    {
-                                        "enchantments": "fire_aspect",
-                                        "levels": 2
-                                    }
-                                ]
+                                    "id": "expension:thunder_dagger"
+                                }
                             }
                         }
                     }
@@ -28,5 +22,7 @@
             }
         }
     },
-    "rewards": {}
+    "rewards": {
+        "function": "expension:thunder_dagger_attack"
+    }
 }
