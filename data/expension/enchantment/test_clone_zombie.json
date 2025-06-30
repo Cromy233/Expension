@@ -10,7 +10,7 @@
                 "enchanted": "victim",
                 "effect": {
                     "type": "run_function",
-                    "function": "expension:test_clone_zombie"
+                    "function": "expension:test-clone_zombie"
                 }
             }
         ]

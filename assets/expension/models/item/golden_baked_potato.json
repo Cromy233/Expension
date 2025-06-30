@@ -1,6 +1,5 @@
 {
     "parent": "item/generated",
-    "ambientocclusion": true,
     "textures": {
         "layer0":"expension:item/golden_baked_potato"
     }

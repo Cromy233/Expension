@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0":"expension:item/wind_blade"
+        "layer0": "expension:item/thunder_dagger"
     }
 }

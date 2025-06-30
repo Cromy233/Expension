@@ -23,5 +23,9 @@
     "item.expension.thunder_dagger": "厉雷",
     "item.expension.thunder_dagger.description_1": "§7在主手时:",
     "item.expension.thunder_dagger.description_2": "§2 4 攻击伤害",
-    "item.expension.thunder_dagger.description_3": "§2 1 攻击速度"
+    "item.expension.thunder_dagger.description_3": "§2 1 攻击速度",
+    "item.expension.terra_greataxe": "大地巨斧",
+    "item.expension.terra_greataxe.description_1": "§7在主手时:",
+    "item.expension.terra_greataxe.description_2": "§2 9 攻击伤害",
+    "item.expension.terra_greataxe.description_3": "§2 0.9 攻击速度"
 }

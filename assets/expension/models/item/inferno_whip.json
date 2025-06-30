@@ -1,6 +1,5 @@
 {
-    "parent": "item/netherite_sword",
-    "ambientocclusion": true,
+    "parent": "item/handheld",
     "textures": {
         "layer0":"expension:item/inferno_whip"
     }

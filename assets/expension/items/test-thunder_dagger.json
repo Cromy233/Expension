@@ -1,0 +1,31 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "expension:item/thunder_dagger"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "expension:item/thunder_dagger_in_hand"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model":"expension:item/thunder_dagger_throwing"
+      },
+      "property": "minecraft:using_item"
+    }
+  }
+}

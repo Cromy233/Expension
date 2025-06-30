@@ -1,0 +1,83 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:mace",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "custom_item": true,
+                    "id": "expension:terra_greataxe"
+                  },
+                  "item_model": "expension:terra_greataxe",
+                  "item_name": {
+                    "translate": "item.expension.terra_greataxe"
+                  },
+                  "lore": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "translate": "item.expension.terra_greataxe.description_1"
+                    },
+                    {
+                      "translate": "item.expension.terra_greataxe.description_2"
+                    },
+                    {
+                      "translate": "item.expension.terra_greataxe.description_3"
+                    }
+                  ],
+                  "max_damage": 731,
+                  "attribute_modifiers": [
+                    {
+                      "amount": 8,
+                      "id": "expension:terra_greataxe",
+                      "operation": "add_value",
+                      "type": "attack_damage",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "amount": 0.5,
+                      "id": "expension:terra_greataxe",
+                      "operation": "add_value",
+                      "type": "attack_knockback",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "amount": -3.1,
+                      "id": "expension:terra_greataxe",
+                      "operation": "add_value",
+                      "type": "attack_speed",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "tool": {
+                    "rules": [
+                      {
+                        "blocks": "#minecraft:mineable/axe",
+                        "correct_for_drops": true,
+                        "speed": 8
+                      }
+                    ]
+                  },
+                  "weapon": {
+                    "disable_blocking_for_seconds": 10
+                  },
+                  "tooltip_display": {
+                    "hidden_components": [
+                      "attribute_modifiers"
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  }

@@ -1,0 +1,24 @@
+{
+    "parent": "builtin/generated",
+    "textures": {
+        "layer0": "expension:item/thunder_dagger"
+    },
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [ 0, -90, 25 ],
+            "translation": [ -3, 17, 1],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 90, -25 ],
+            "translation": [  13, 17, 1],
+            "scale": [ 1, 1, 1 ]
+        },
+        "thirdperson_lefthand": {
+
+        },
+        "thirdperson_righthand": {
+            
+        }
+    }
+}

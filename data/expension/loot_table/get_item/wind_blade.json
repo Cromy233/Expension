@@ -18,6 +18,9 @@
                     "translate": "item.expension.wind_blade"
                   },
                   "max_damage": 906,
+                  "enchantable": {
+                    "value": 15
+                  },
                   "blocks_attacks": {
                     "block_sound": "entity.breeze.hurt",
                     "damage_reductions": [
