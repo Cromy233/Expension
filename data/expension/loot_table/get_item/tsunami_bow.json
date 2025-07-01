@@ -1,0 +1,53 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "bow",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "custom_item": true,
+                    "id": "expension:tsunami_bow"
+                  },
+                  "item_model": "bow",
+                  "item_name": {
+                    "translate": "item.expension.tsunami_bow"
+                  },
+                  "max_damage": 576,
+                  "enchantable": {
+                    "value": 15
+                  },
+                  "blocks_attacks": {
+                    "block_sound": "minecraft:entity.generic.splash",
+                    "bypassed_by": "#bypasses_shield",
+                    "damage_reductions": [
+                        {
+                            "base": 0,
+                            "factor": 1,
+                            "horizontal_blocking_angle": 180,
+                            "type": "#is_fire"
+                        },
+                        {
+                            "base": 1,
+                            "factor": 0.5
+                        }
+                    ],
+                    "item_damage": {
+                        "base": 0,
+                        "factor": 2,
+                        "threshold": 1
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  }

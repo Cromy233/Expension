@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "expension:tsunami_bow_use": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "id": "expension:tsunami_bow"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:tsunami_bow_use"
+    }
+}
