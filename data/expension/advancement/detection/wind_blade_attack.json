@@ -1,12 +1,12 @@
 {
     "criteria": {
-        "expension:tsunami_bow_use": {
+        "expension:wind_blade_use": {
             "trigger": "using_item",
             "conditions": {
                 "item": {
                     "predicates": {
                         "custom_data": {
-                            "id": "expension:tsunami_bow"
+                            "id": "expension:wind_blade"
                         }
                     }
                 }
@@ -14,6 +14,6 @@
         }
     },
     "rewards": {
-        "function": "expension:tsunami_bow_use"
+        "function": "expension:wind_blade_use"
     }
 }

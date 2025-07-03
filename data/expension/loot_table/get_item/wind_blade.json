@@ -4,7 +4,7 @@
         "entries": [
           {
             "type": "item",
-            "name": "diamond_sword",
+            "name": "iron_sword",
             "functions": [
               {
                 "function": "set_components",
@@ -17,6 +17,20 @@
                   "item_name": {
                     "translate": "item.expension.wind_blade"
                   },
+                  "lore": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "translate": "item.expension.wind_blade.description_1"
+                    },
+                    {
+                      "translate": "item.expension.wind_blade.description_2"
+                    },
+                    {
+                      "translate": "item.expension.wind_blade.description_3"
+                    }
+                  ],
                   "max_damage": 906,
                   "enchantable": {
                     "value": 15
@@ -43,6 +57,34 @@
                       "factor": 1,
                       "threshold": 1
                     }
+                  },
+                  "attribute_modifiers": [
+                    {
+                      "amount": 6,
+                      "id": "expension:wind_blade",
+                      "operation": "add_value",
+                      "type": "attack_damage",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "amount": -2.3,
+                      "id": "expension:wind_blade",
+                      "operation": "add_value",
+                      "type": "attack_speed",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "amount": 0.1,
+                      "id": "expension:wind_blade",
+                      "operation": "add_multiplied_base",
+                      "type": "movement_speed",
+                      "slot": "hand"
+                    }
+                  ],
+                  "tooltip_display": {
+                    "hidden_components": [
+                      "attribute_modifiers"
+                    ]
                   }
                 }
               }

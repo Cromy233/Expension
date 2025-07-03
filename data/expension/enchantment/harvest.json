@@ -1,0 +1,31 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "translate": "enchantment.expension.harvest"
+    },
+    "effects": {
+        "hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "expension:harvest"
+                }
+            }
+        ]
+    },
+    "max_cost": {
+      "base": 75,
+      "per_level_above_first": 25
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 25,
+      "per_level_above_first": 25
+    },
+    "primary_items": "#minecraft:hoes",
+    "supported_items": "#minecraft:hoes",
+    "slots": [
+        "mainhand"
+    ],
+    "weight": 1
+  }

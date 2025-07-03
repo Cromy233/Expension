@@ -1,0 +1,1 @@
+execute at @e[type=item,distance=..5,nbt={Age:0s,Item:{components:{"minecraft:custom_data":{"id":"expension:terra_greataxe"}}}}] run function expension:terra_greataxe_death

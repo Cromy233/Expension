@@ -1,1 +1,0 @@
-execute as @e[type=#minecraft:arrows,nbt={NoGravity:1b}] run data merge entity @s {NoGravity:0b}

@@ -1,0 +1,2 @@
+scoreboard objectives add thunder_dagger_cooldown dummy
+scoreboard objectives add death deathCount

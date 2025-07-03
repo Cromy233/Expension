@@ -1,0 +1,41 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "bow",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "custom_item": true,
+                    "id": "expension:frost_bow"
+                  },
+                  "item_model": "expension:frost_bow",
+                  "item_name": {
+                    "translate": "item.expension.frost_bow"
+                  },
+                  "enchantable": {
+                    "value": 15
+                  },
+                  "tool": {
+                    "rules": [
+                      {
+                        "blocks": "#minecraft:ice",
+                        "correct_for_drops": false,
+                        "speed": 3
+                      }
+                    ],
+                    "damage_per_block": 0
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  }

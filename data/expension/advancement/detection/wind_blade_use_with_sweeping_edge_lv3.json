@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "expension:wind_blade_use_with_sweeping_edge_lv3": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "id": "expension:wind_blade"
+                        },
+                        "enchantments": [
+                            {
+                                "enchantments": "sweeping_edge",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {}
+}

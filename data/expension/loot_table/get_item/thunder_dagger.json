@@ -39,7 +39,7 @@
                   "max_damage": 1561,
                   "attribute_modifiers": [
                     {
-                      "amount": 3,
+                      "amount": 4,
                       "id": "expension:thunder_dagger",
                       "operation": "add_value",
                       "type": "attack_damage",
@@ -56,8 +56,9 @@
                   "blocks_attacks": {
                     "damage_reductions": [
                       {
-                        "base": 0.01,
-                        "factor": 0
+                        "base": 0,
+                        "factor": 1,
+                        "type": "#is_projectile"
                       },
                       {
                         "base": 0,
@@ -68,9 +69,10 @@
                     ],
                     "item_damage": {
                       "base": 0,
-                      "factor": 0.5,
+                      "factor": 1,
                       "threshold": 1
-                    }
+                    },
+                    "disable_cooldown_scale": 2
                   }
                 }
               }

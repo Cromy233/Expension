@@ -35,9 +35,10 @@
     "minecraft:piercing",
     "minecraft:density",
     "minecraft:breach",
-    {"required": false,"id": "expension:explosive_arrow"},
-    {"required": false,"id": "expension:long_reach"},
-    {"required": false,"id": "expension:steadiness"},
-    {"required": false,"id": "expension:parry"}
+    "expension:explosive_arrow",
+    "expension:long_reach",
+    "expension:steadiness",
+    "expension:parry",
+    "expension:harvest"
   ]
 }

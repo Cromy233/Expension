@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:shield",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "custom_item": true,
+                    "id": "expension:diamond_shield"
+                  },
+                  "max_damage": 672
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  }
