@@ -9,7 +9,42 @@
                 "effect": {
                     "type": "minecraft:run_function",
                     "function": "expension:harvest"
-                }
+                },
+                "requirements": [
+                  {
+                    "condition": "any_of",
+                    "terms": [
+                      {
+                        "condition": "block_state_property",
+                        "block": "beetroots",
+                        "properties": {
+                          "age": "3"
+                        }
+                      },
+                      {
+                        "condition": "block_state_property",
+                        "block": "carrots",
+                        "properties": {
+                          "age": "7"
+                        }
+                      },
+                      {
+                        "condition": "block_state_property",
+                        "block": "potatoes",
+                        "properties": {
+                          "age": "7"
+                        }
+                      },
+                      {
+                        "condition": "block_state_property",
+                        "block": "wheat",
+                        "properties": {
+                          "age": "7"
+                        }
+                      }
+                    ]
+                  }
+                ]
             }
         ]
     },
