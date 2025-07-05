@@ -11,6 +11,6 @@ execute at @a[scores={thunder_dagger_cooldown=..0},nbt={equipment:{offhand:{comp
 execute as @a[scores={death=1..}] at @s run function expension:death
 scoreboard players remove @a[scores={death=1..}] death 1
 
-# Tsunami Bow
+# Frost Bow
 execute at @e[tag=frost_bow_arrow] run particle snowflake ~ ~ ~ 0 0 0 0 1 normal
 execute as @e[tag=frost_bow_arrow,nbt={inGround:1b}] at @s run function expension:frost_bow_ice

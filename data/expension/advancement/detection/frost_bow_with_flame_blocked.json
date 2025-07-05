@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "expension:frost_bow_with_flame_blocked": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true,
+                    "type": {
+                        "direct_entity": {
+                            "nbt": "{Tags:[\"frost_bow_arrow\"],weapon:{components:{\"minecraft:enchantments\":{\"minecraft:flame\":1}}}}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {}
+}
