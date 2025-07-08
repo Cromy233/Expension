@@ -1,16 +1,7 @@
-execute if entity @s[advancements={expension:detection/wind_blade_use_with_sweeping_edge_lv1=false,expension:detection/wind_blade_use_with_sweeping_edge_lv2=false,expension:detection/wind_blade_use_with_sweeping_edge_lv3=false}] as @e[distance=0.0000000001..3,type=#expension:mobs] run damage @s 2 player_attack by @p[advancements={expension:detection/wind_blade_use=true}]
-execute if entity @s[advancements={expension:detection/wind_blade_use_with_sweeping_edge_lv1=true}] as @e[distance=0.0000000001..3,type=#expension:mobs] run damage @s 2.5 player_attack by @p[advancements={expension:detection/wind_blade_use=true}]
-execute if entity @s[advancements={expension:detection/wind_blade_use_with_sweeping_edge_lv2=true}] as @e[distance=0.0000000001..3,type=#expension:mobs] run damage @s 3 player_attack by @p[advancements={expension:detection/wind_blade_use=true}]
-execute if entity @s[advancements={expension:detection/wind_blade_use_with_sweeping_edge_lv3=true}] as @e[distance=0.0000000001..3,type=#expension:mobs] run damage @s 4 player_attack by @p[advancements={expension:detection/wind_blade_use=true}]
+particle minecraft:small_gust ~ ~0.7 ~ 0.3 0.3 0.3 1 1
+execute unless score @s expension_wind_blade_cooldown matches ..30 run scoreboard players set @s expension_wind_blade_cooldown 0
 
-particle sweep_attack ~ ~1 ~ 1 1 1 1 5 normal
-playsound entity.breeze.slide player @a ~ ~ ~
-
-attribute @s minecraft:gravity modifier add expension:wind_blade -0.5 add_multiplied_total
-attribute @s minecraft:knockback_resistance modifier add expension:wind_blade 0.6 add_value
-schedule function expension:wind_blade_clear 2t replace
+execute unless predicate expension:sneaking if score @s expension_wind_blade_cooldown matches 0 run function expension:wind_blade_burst
+execute if predicate expension:sneaking if score @s[nbt={OnGround:1b}] expension_wind_blade_cooldown matches 0 unless block ~ ~-1 ~ #air run function expension:wind_blade_ascend
 
 advancement revoke @s only expension:detection/wind_blade_use
-advancement revoke @s only expension:detection/wind_blade_use_with_sweeping_edge_lv1
-advancement revoke @s only expension:detection/wind_blade_use_with_sweeping_edge_lv2
-advancement revoke @s only expension:detection/wind_blade_use_with_sweeping_edge_lv3

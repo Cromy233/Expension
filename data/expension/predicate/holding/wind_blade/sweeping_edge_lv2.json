@@ -1,0 +1,47 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "predicates": {
+                            "custom_data": {
+                                "id": "expension:wind_blade"
+                            },
+                            "enchantments": [
+                                {
+                                    "enchantments": "sweeping_edge",
+                                    "levels": 2
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "predicates": {
+                            "custom_data": {
+                                "id": "expension:wind_blade"
+                            },
+                            "enchantments": [
+                                {
+                                    "enchantments": "sweeping_edge",
+                                    "levels": 2
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

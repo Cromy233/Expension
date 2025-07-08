@@ -31,19 +31,13 @@
                       "translate": "item.expension.wind_blade.description_3"
                     }
                   ],
-                  "max_damage": 906,
+                  "max_damage": 1561,
                   "enchantable": {
                     "value": 15
                   },
                   "blocks_attacks": {
                     "block_sound": "entity.breeze.hurt",
                     "damage_reductions": [
-                      {
-                        "base": 0,
-                        "factor": 0.5,
-                        "horizontal_blocking_angle": 180,
-                        "type": "#is_projectile"
-                      },
                       {
                         "base": 1,
                         "factor": 0.5,
@@ -54,7 +48,7 @@
                     "disable_cooldown_scale": 1,
                     "item_damage": {
                       "base": 3,
-                      "factor": 1,
+                      "factor": 0.5,
                       "threshold": 1
                     }
                   },
