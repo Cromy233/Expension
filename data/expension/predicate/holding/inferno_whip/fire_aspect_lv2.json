@@ -1,0 +1,21 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "predicates": {
+                    "custom_data": {
+                        "id": "expension:wind_blade"
+                    },
+                    "enchantments": [
+                        {
+                            "enchantments": "fire_aspect",
+                            "levels": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
