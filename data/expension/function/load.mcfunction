@@ -1,2 +1,3 @@
-scoreboard objectives add thunder_dagger_cooldown dummy
-scoreboard objectives add death deathCount
+scoreboard objectives add expension_thunder_dagger_cooldown dummy
+scoreboard objectives add expension_death deathCount
+scoreboard objectives add expension_frost_bow_marker dummy
