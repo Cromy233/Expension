@@ -14,6 +14,6 @@ execute if predicate expension:holding/wind_blade/sweeping_edge_lv3 as @e[type=#
 execute if predicate expension:holding/wind_blade/fire_aspect_lv1 as @e[type=#expension:mobs,distance=..4,nbt={HurtTime:10s}] run data modify entity @s Fire set value 40
 execute if predicate expension:holding/wind_blade/fire_aspect_lv2 as @e[type=#expension:mobs,distance=..4,nbt={HurtTime:10s}] run data modify entity @s Fire set value 80
 
-execute if predicate expension:holding/wind_blade/mainhand run item modify entity @s weapon.mainhand expension:set_damage/damage0.002
-execute if predicate expension:holding/wind_blade/offhand run item modify entity @s weapon.offhand expension:set_damage/damage0.002
+execute if predicate expension:holding/wind_blade/mainhand run item modify entity @s weapon.mainhand expension:set_damage/damage0.001
+execute if predicate expension:holding/wind_blade/offhand run item modify entity @s weapon.offhand expension:set_damage/damage0.001
 scoreboard players set @s expension_wind_blade_cooldown 20
