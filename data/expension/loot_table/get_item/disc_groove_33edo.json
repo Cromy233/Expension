@@ -11,10 +11,10 @@
                 "components": {
                   "custom_data": {
                     "custom_item": true,
-                    "id": "expension:disc_jigoku"
+                    "id": "expension:disc_groove_33edo"
                   },
-                  "item_model": "expension:disc_jigoku",
-                  "jukebox_playable": "expension:jigoku"
+                  "item_model": "expension:disc_groove_33edo",
+                  "jukebox_playable": "expension:groove_33edo"
                 }
               }
             ]

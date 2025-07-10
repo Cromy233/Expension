@@ -9,7 +9,7 @@
                     "mainhand": {
                         "predicates": {
                             "custom_data": {
-                                "id": "expension:inferno_whip"
+                                "id": "expension:wind_blade"
                             },
                             "enchantments": [
                                 {
@@ -30,7 +30,7 @@
                     "offhand": {
                         "predicates": {
                             "custom_data": {
-                                "id": "expension:inferno_whip"
+                                "id": "expension:wind_blade"
                             },
                             "enchantments": [
                                 {
