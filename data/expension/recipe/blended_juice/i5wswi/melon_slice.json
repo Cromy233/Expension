@@ -43,6 +43,11 @@
                   "show_particles": false
                 }
               ]
+            },
+            "food": {
+              "nutrition": 0,
+              "saturation": 10,
+              "can_always_eat": true
             }
         }
     }
