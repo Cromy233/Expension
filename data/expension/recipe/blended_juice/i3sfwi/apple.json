@@ -1,0 +1,46 @@
+{
+    "type": "crafting_shapeless",
+    "group": "blended_juice",
+    "ingredients": [
+        "minecraft:apple",
+        "#expension:fruits",
+        [
+          "minecraft:chorus_fruit",
+          "minecraft:glow_berries",
+          "minecraft:melon_slice",
+          "minecraft:sweet_berries"
+        ],
+        "minecraft:glass_bottle",
+        "minecraft:snowball"
+    ],
+    "result": {
+        "id": "potion",
+        "components": {
+            "custom_data": {
+              "custom_item": true,
+              "id": "expension:blended_juice_i3sfwi"
+            },
+            "lore": [
+              {
+                "translate": "item.expension.blended_juice_sfwi"
+              }
+            ],
+            "consumable": {
+              "animation": "drink",
+              "has_consume_particles": false,
+              "sound": "entity.generic.drink"
+            },
+            "potion_contents": {
+              "custom_color": 16754720,
+              "custom_name": "blended_juice",
+              "custom_effects": [
+                {
+                  "id": "regeneration",
+                  "duration": 140,
+                  "show_particles": false
+                }
+              ]
+            }
+        }
+    }
+}

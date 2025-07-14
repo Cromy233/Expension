@@ -14,9 +14,6 @@
                     "id": "expension:recall_potion"
                   },
                   "item_model": "expension:recall_potion",
-                  "item_name": {
-                    "translate": "item.expension.recall_potion"
-                  },
                   "consumable": {
                     "animation": "drink",
                     "has_consume_particles": false,
