@@ -18,7 +18,9 @@
         "components": {
             "custom_data": {
               "custom_item": true,
-              "id": "expension:blended_juice_i3sfwi"
+              "id": "expension:blended_juice",
+              "ingredients": 3,
+              "ice": true
             },
             "lore": [
               {

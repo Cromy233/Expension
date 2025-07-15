@@ -9,4 +9,4 @@ data modify entity @n[tag=frost_bow_arrow] NoGravity set value 0b
 tag @n[tag=frost_bow_arrow] add frost_bow_arrow_fallin
 tag @n[tag=frost_bow_arrow] remove frost_bow_arrow
 
-advancement revoke @s only expension:detection/frost_bow_blocked
+advancement revoke @s only expension:check/frost_bow_blocked

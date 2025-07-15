@@ -20,7 +20,9 @@
         "components": {
             "custom_data": {
               "custom_item": true,
-              "id": "expension:blended_juice_i5wsrt"
+              "id": "expension:blended_juice",
+              "ingredients": 5,
+              "ice": false
             },
             "lore": [
               {
@@ -45,7 +47,7 @@
             },
             "food": {
               "nutrition": 0,
-              "saturation": 10,
+              "saturation": 11,
               "can_always_eat": true
             }
         }

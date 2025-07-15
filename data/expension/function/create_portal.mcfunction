@@ -5,4 +5,4 @@ playsound minecraft:block.respawn_anchor.charge player @a ~ ~ ~
 particle minecraft:enchant ~ ~1 ~ 0.7 0.7 0.7 0.5 50
 particle minecraft:portal ~ ~1 ~ 0.2 0.2 0.2 2 50
 
-advancement revoke @s only expension:detection/portal_potion_use
+advancement revoke @s only expension:check/portal_potion_use

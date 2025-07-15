@@ -7,4 +7,4 @@ execute if entity @s[tag=thunder_daggle_2] run scoreboard players set @s expensi
 
 tag @s remove thunder_daggle_1
 tag @s remove thunder_daggle_2
-advancement revoke @s only expension:detection/thunder_dagger_use
+advancement revoke @s only expension:check/thunder_dagger_use

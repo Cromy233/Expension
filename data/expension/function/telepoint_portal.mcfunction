@@ -12,4 +12,4 @@ execute at @e[type=minecraft:item_display,tag=portal,limit=1,sort=nearest,distan
 execute unless entity @e[type=minecraft:item_display,tag=portal,limit=1,sort=nearest,distance=..100000] run playsound minecraft:block.beacon.deactivate player @s ~ ~ ~
 
 kill @e[type=minecraft:item_display,tag=portal,limit=1,sort=nearest,distance=..100000]
-advancement revoke @s only expension:detection/recall_potion_use
+advancement revoke @s only expension:check/recall_potion_use

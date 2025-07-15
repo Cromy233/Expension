@@ -5,4 +5,4 @@ effect give @e[type=#expension:mobs,nbt={OnGround:1b},distance=..3] minecraft:sl
 effect give @e[type=#expension:mobs,nbt={OnGround:1b},distance=..3] minecraft:weakness 1 0 true
 execute at @e[type=#expension:mobs,nbt={OnGround:1b},distance=..3] run particle minecraft:block{block_state:"minecraft:cobblestone"} ~ ~ ~ 0.5 0 0.5 0 10
 
-advancement revoke @s only expension:detection/terra_greataxe_attack
+advancement revoke @s only expension:check/terra_greataxe_attack

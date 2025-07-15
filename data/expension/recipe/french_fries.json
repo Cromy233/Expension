@@ -17,24 +17,8 @@
         },
         "food": {
           "nutrition": 5,
-          "saturation": 6,
+          "saturation": 8,
           "can_always_eat": false
-        },
-        "consumable": {
-          "on_consume_effects": [
-            {
-              "type": "apply_effects",
-              "effects": [
-                {
-                  "id": "regeneration",
-                  "amplifier": 0,
-                  "duration": 100,
-                  "show_particles": false,
-                  "show_icon": true
-                }
-              ]
-            }
-          ]
         }
       }
     }
