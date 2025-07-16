@@ -1,4 +1,2 @@
-schedule function expension:frost_bow_shoot 2t replace
-attribute @s minecraft:burning_time modifier add expension:frost_bow -0.7 add_value
-
+schedule function expension:frost_bow_clear 5s replace
 advancement revoke @s only expension:check/frost_bow_use

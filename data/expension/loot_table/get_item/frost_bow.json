@@ -29,7 +29,16 @@
                       }
                     ],
                     "damage_per_block": 0
-                  }
+                  },
+                  "attribute_modifiers": [
+                    {
+                      "amount": -0.6,
+                      "id": "expension:frost_bow",
+                      "operation": "add_multiplied_base",
+                      "type": "burning_time",
+                      "slot": "hand"
+                    }
+                  ]
                 }
               }
             ]
