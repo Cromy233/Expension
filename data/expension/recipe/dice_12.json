@@ -1,0 +1,28 @@
+{
+    "type": "stonecutting",
+    "ingredient": "resin_brick",
+    "result": {
+        "id": "minecraft:resin_brick",
+        "components": {
+            "custom_data": {
+              "custom_item": true,
+              "id": "expension:dice_12"
+            },
+            "item_model": "expension:dice_12",
+            "item_name": {
+              "translate": "item.expension.dice_12"
+            },
+            "max_stack_size": 1,
+            "consumable": {
+              "animation": "none",
+              "consume_seconds": 0,
+              "has_consume_particles": false,
+              "sound": "minecraft:entity.item.pickup"
+          },
+            "use_cooldown": {
+              "seconds": 0.5,
+              "cooldown_group": "expension:dice"
+            }
+        }
+    }
+}

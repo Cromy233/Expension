@@ -1,0 +1,39 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:resin_brick",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "custom_item": true,
+                    "id": "expension:dice_6"
+                  },
+                  "item_model": "expension:dice_6",
+                  "item_name": {
+                    "translate": "item.expension.dice_6"
+                  },
+                  "max_stack_size": 1,
+                  "consumable": {
+                    "animation": "none",
+                    "consume_seconds": 0,
+                    "has_consume_particles": false,
+                    "sound": "minecraft:entity.item.pickup"
+                },
+                  "use_cooldown": {
+                    "seconds": 0.5,
+                    "cooldown_group": "expension:dice"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  }

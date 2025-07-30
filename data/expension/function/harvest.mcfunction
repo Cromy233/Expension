@@ -1,3 +1,4 @@
+execute positioned ~ ~ ~ if block ~ ~ ~ #expension:harvestable_crop run loot spawn ~ ~ ~ mine ~ ~ ~ mainhand
 execute positioned ~ ~ ~1 if block ~ ~ ~ #expension:harvestable_crop run loot spawn ~ ~ ~ mine ~ ~ ~ mainhand
 execute positioned ~ ~ ~-1 if block ~ ~ ~ #expension:harvestable_crop run loot spawn ~ ~ ~ mine ~ ~ ~ mainhand
 execute positioned ~1 ~ ~ if block ~ ~ ~ #expension:harvestable_crop run loot spawn ~ ~ ~ mine ~ ~ ~ mainhand
