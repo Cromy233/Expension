@@ -12,8 +12,8 @@ execute at @a[scores={expension_thunder_dagger_cooldown=..0},nbt={equipment:{off
 
 
 # Frost Bow
-execute as @e[type=#minecraft:arrows,nbt={weapon:{components:{"minecraft:custom_data":{id:"expension:frost_bow"}}}},tag=!frost_bow_arrow_fallin,tag=!frost_bow_arrow] at @s run function expension:frost_bow_arrow
-execute as @e[tag=frost_bow_marker] at @s run function expension:frost_bow_marker
+execute as @e[type=#minecraft:arrows,nbt={weapon:{components:{"minecraft:custom_data":{id:"expension:frost_bow"}}}},tag=!frost_bow_arrow_fallin,tag=!frost_bow_arrow] at @s run function expension:frost_bow/arrow
+execute as @e[tag=frost_bow_marker] at @s run function expension:frost_bow/marker
 
 execute at @e[tag=frost_bow_arrow,tag=!frost_bow_arrow_fallin] run particle snowflake ~ ~ ~ 0 0 0 0 1 normal
 

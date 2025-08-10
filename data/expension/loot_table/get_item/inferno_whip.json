@@ -64,7 +64,8 @@
                   ],
                   "weapon": {
                     "item_damage_per_attack": 2
-                  }
+                  },
+                  "rarity": "epic"
                 }
               }
             ]

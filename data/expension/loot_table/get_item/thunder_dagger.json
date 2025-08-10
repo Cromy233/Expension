@@ -73,7 +73,8 @@
                       "threshold": 1
                     },
                     "disable_cooldown_scale": 2
-                  }
+                  },
+                  "rarity": "epic"
                 }
               }
             ]

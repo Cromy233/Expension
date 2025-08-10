@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "expension:thunder_dagger/kill": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_direct": true
+                },
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "predicates": {
+                                "custom_data": {
+                                    "id": "expension:thunder_dagger"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:thunder_dagger/kill"
+    }
+}

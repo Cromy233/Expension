@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "expension:dice/8": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "id": "expension:dice_8"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:dice_roll/8"
+    }
+}

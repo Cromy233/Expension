@@ -5,7 +5,7 @@ execute if entity @e[type=minecraft:item_display,tag=portal,limit=1,sort=nearest
 execute if entity @e[type=minecraft:item_display,tag=portal,limit=1,sort=nearest,distance=..100000] run particle minecraft:enchant ~ ~1 ~ 0.7 0.7 0.7 0.5 50
 execute if entity @e[type=minecraft:item_display,tag=portal,limit=1,sort=nearest,distance=..100000] run particle minecraft:portal ~ ~1 ~ 0.2 0.2 0.2 2 50
 
-execute at @e[type=minecraft:item_display,tag=portal,limit=1,sort=nearest,distance=..100000] run playsound minecraft:block.beacon.activate player @s ~ ~-1 ~
+execute at @e[type=minecraft:item_display,tag=portal,limit=1,sort=nearest,distance=..100000] run playsound minecraft:block.beacon.activate player @a ~ ~-1 ~
 execute at @e[type=minecraft:item_display,tag=portal,limit=1,sort=nearest,distance=..100000] run particle minecraft:enchant ~ ~ ~ 0.7 0.7 0.7 0.5 50
 execute at @e[type=minecraft:item_display,tag=portal,limit=1,sort=nearest,distance=..100000] run particle minecraft:witch ~ ~ ~ 0.7 0.7 0.7 1 50 normal
 

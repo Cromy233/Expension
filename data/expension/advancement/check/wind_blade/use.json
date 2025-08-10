@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "expension:wind_blade/use": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "id": "expension:wind_blade"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:wind_blade/use"
+    }
+}

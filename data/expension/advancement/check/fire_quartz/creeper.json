@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "expension:fire_quartz/creeper": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "id": "expension:fire_quartz",
+                            "target": "creeper"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:fire_quartz/creeper"
+    }
+}

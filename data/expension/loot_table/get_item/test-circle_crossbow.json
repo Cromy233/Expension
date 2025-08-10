@@ -15,9 +15,9 @@
                     "infinity": 1,
                     "multishot": 100,
                     "piercing": 100,
-                    "quick_charge": 10,
-                    "unbreaking": 100
-                  }
+                    "quick_charge": 10
+                  },
+                  "unbreakable": {}
                 }
               }
             ]

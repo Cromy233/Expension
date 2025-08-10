@@ -25,20 +25,21 @@
                       {
                         "blocks": "#minecraft:ice",
                         "correct_for_drops": false,
-                        "speed": 3
+                        "speed": 5
                       }
                     ],
                     "damage_per_block": 0
                   },
                   "attribute_modifiers": [
                     {
-                      "amount": -0.6,
+                      "amount": -0.3,
                       "id": "expension:frost_bow",
                       "operation": "add_multiplied_base",
                       "type": "burning_time",
                       "slot": "hand"
                     }
-                  ]
+                  ],
+                  "rarity": "epic"
                 }
               }
             ]

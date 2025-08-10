@@ -19,11 +19,11 @@
       "type": "minecraft:condition",
       "on_false": {
         "type": "minecraft:model",
-        "model": "expension:item/thunder_dagger_in_hand"
+        "model": "expension:item/thunder_dagger/in_hand"
       },
       "on_true": {
         "type": "minecraft:model",
-        "model":"expension:item/thunder_dagger_throwing"
+        "model":"expension:item/thunder_dagger/throwing"
       },
       "property": "minecraft:using_item"
     }
