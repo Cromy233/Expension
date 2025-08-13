@@ -1,13 +1,13 @@
 {
     "criteria": {
-        "expension:fire_quartz/creeper": {
+        "expension:fire_crystal/silverfish": {
             "trigger": "consume_item",
             "conditions": {
                 "item": {
                     "predicates": {
                         "custom_data": {
-                            "id": "expension:fire_quartz",
-                            "target": "creeper"
+                            "id": "expension:fire_crystal",
+                            "target": "silverfish"
                         }
                     }
                 }
@@ -15,6 +15,6 @@
         }
     },
     "rewards": {
-        "function": "expension:fire_quartz/creeper"
+        "function": "expension:fire_crystal/silverfish"
     }
 }

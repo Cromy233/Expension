@@ -1,24 +1,24 @@
 {
     "type": "crafting_shapeless",
     "category": "equipment",
-    "group": "expension:fire_quartz",
+    "group": "expension:fire_crystal",
     "ingredients": [
         "amethyst_shard",
         "dragon_breath",
         "torchflower",
-        "phantom_membrane"
+        "player_head"
     ],
     "result": {
         "id": "recovery_compass",
         "components": {
           "custom_data": {
             "custom_item": true,
-            "id": "expension:fire_quartz",
-            "target": "phantom"
+            "id": "expension:fire_crystal",
+            "target": "player"
           },
-          "item_model": "expension:fire_quartz",
+          "item_model": "expension:fire_crystal",
           "item_name": {
-            "translate": "item.expension.fire_quartz/phantom"
+            "translate": "item.expension.fire_crystal/player"
           },
           "consumable": {
             "animation": "bow",
@@ -28,11 +28,11 @@
           },
           "use_cooldown": {
             "seconds": 5,
-            "cooldown_group": "expension:fire_quartz"
+            "cooldown_group": "expension:fire_crystal"
           },
           "enchantment_glint_override": true,
           "max_stack_size": 16,
-          "rarity": "uncommon"
+          "rarity": "epic"
         }
     }
 }

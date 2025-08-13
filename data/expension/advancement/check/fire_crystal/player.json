@@ -1,13 +1,13 @@
 {
     "criteria": {
-        "expension:fire_quartz/phantom": {
+        "expension:fire_crystal/player": {
             "trigger": "consume_item",
             "conditions": {
                 "item": {
                     "predicates": {
                         "custom_data": {
-                            "id": "expension:fire_quartz",
-                            "target": "phantom"
+                            "id": "expension:fire_crystal",
+                            "target": "player"
                         }
                     }
                 }
@@ -15,6 +15,6 @@
         }
     },
     "rewards": {
-        "function": "expension:fire_quartz/phantom"
+        "function": "expension:fire_crystal/player"
     }
 }

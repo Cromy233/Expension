@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "expension:fire_crystal/creeper": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "id": "expension:fire_crystal",
+                            "target": "creeper"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:fire_crystal/creeper"
+    }
+}

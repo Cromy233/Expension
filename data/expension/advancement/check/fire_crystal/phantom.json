@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "expension:fire_crystal/phantom": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "id": "expension:fire_crystal",
+                            "target": "phantom"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:fire_crystal/phantom"
+    }
+}

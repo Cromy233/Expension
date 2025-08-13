@@ -17,7 +17,7 @@ particle flame ~ ~1 ~ 0.2 0.2 0.2 0.05 10
 playsound block.amethyst_block.break player @a ~ ~ ~ 1 1
 playsound block.spawner.break player @a ~ ~ ~ 1 1
 
-execute as @e[type=minecraft:phantom,distance=..50] run data modify entity @s Fire set value 2000
-execute as @e[type=minecraft:phantom,distance=..50] run attribute @s max_health modifier add expension:fire_quartz -0.5 add_multiplied_total
+execute as @e[type=minecraft:silverfish,distance=..50] run data modify entity @s Fire set value 2000
+execute as @e[type=minecraft:silverfish,distance=..50] run attribute @s max_health modifier add expension:fire_crystal -0.5 add_multiplied_total
 
-advancement revoke @s only expension:check/fire_quartz/phantom
+advancement revoke @s only expension:check/fire_crystal/silverfish

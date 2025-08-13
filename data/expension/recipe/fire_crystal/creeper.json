@@ -1,0 +1,38 @@
+{
+    "type": "crafting_shapeless",
+    "category": "equipment",
+    "group": "expension:fire_crystal",
+    "ingredients": [
+        "amethyst_shard",
+        "dragon_breath",
+        "torchflower",
+        "gunpowder"
+    ],
+    "result": {
+        "id": "recovery_compass",
+        "components": {
+          "custom_data": {
+            "custom_item": true,
+            "id": "expension:fire_crystal",
+            "target": "creeper"
+          },
+          "item_model": "expension:fire_crystal",
+          "item_name": {
+            "translate": "item.expension.fire_crystal/creeper"
+          },
+          "consumable": {
+            "animation": "bow",
+            "consume_seconds": 1,
+            "has_consume_particles": false,
+            "sound": "block.amethyst_block.chime"
+          },
+          "use_cooldown": {
+            "seconds": 5,
+            "cooldown_group": "expension:fire_crystal"
+          },
+          "enchantment_glint_override": true,
+          "max_stack_size": 16,
+          "rarity": "uncommon"
+        }
+    }
+}
