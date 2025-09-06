@@ -1,0 +1,30 @@
+{
+  "type": "crafting_shaped",
+  "category": "misc",
+  "pattern": [
+      "AAA",
+      "BBB"
+  ],
+  "key": {
+    "A": "cocoa_beans",
+    "B": "wheat"
+  },
+  "result": {
+      "id": "pumpkin_pie",
+      "components": {
+        "custom_data": {
+          "custom_item": true,
+          "id": "expension:chocolate_bread"
+        },
+        "item_model": "expension:chocolate_bread",
+        "item_name": {
+          "translate": "item.expension.chocolate_bread"
+        },
+        "food": {
+          "nutrition": 8,
+          "saturation": 6,
+          "can_always_eat": false
+        }
+      }
+  }
+}
