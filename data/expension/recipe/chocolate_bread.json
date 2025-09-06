@@ -22,7 +22,7 @@
         },
         "food": {
           "nutrition": 8,
-          "saturation": 6,
+          "saturation": 6.5,
           "can_always_eat": false
         }
       }
