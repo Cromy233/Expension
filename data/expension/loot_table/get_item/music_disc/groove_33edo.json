@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "music_disc_creator",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "custom_item": true,
+                    "id": "expension:music_disc_groove_33edo"
+                  },
+                  "item_model": "expension:music_disc_groove_33edo",
+                  "jukebox_playable": "expension:groove_33edo"
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+}

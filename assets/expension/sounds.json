@@ -3,7 +3,7 @@
     {
         "sounds": [
             {
-                "name": "expension:records/jigoku",
+                "name": "expension:music_disc/jigoku",
                 "stream": true
             }
         ]
@@ -12,7 +12,25 @@
     {
         "sounds": [
             {
-                "name": "expension:records/groove_33edo",
+                "name": "expension:music_disc/groove_33edo",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.lava_chicken":
+    {
+        "sounds": [
+            {
+                "name": "expension:music_disc/lava_chicken",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.tears":
+    {
+        "sounds": [
+            {
+                "name": "expension:music_disc/tears",
                 "stream": true
             }
         ]

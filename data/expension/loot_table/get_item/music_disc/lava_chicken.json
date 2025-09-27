@@ -11,10 +11,10 @@
                 "components": {
                   "custom_data": {
                     "custom_item": true,
-                    "id": "expension:disc_jigoku"
+                    "id": "expension:music_disc_lava_chicken"
                   },
-                  "item_model": "expension:disc_jigoku",
-                  "jukebox_playable": "expension:jigoku"
+                  "item_model": "expension:music_disc_lava_chicken",
+                  "jukebox_playable": "expension:lava_chicken"
                 }
               }
             ]
@@ -23,4 +23,4 @@
         "rolls": 1
       }
     ]
-  }
+}

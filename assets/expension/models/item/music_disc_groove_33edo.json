@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0":"expension:item/music_disc_groove_33edo"
+    }
+}

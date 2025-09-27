@@ -16,7 +16,7 @@
                   },
                   "item_model": "expension:fire_crystal",
                   "item_name": {
-                    "translate": "item.expension.fire_crystal/player"
+                    "translate": "item.expension.fire_crystal_player"
                   },
                   "consumable": {
                     "animation": "bow",
