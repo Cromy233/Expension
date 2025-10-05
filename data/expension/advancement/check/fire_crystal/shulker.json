@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "expension:fire_crystal/shulker": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "id": "expension:fire_crystal",
+                            "target": "shulker"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:fire_crystal/shulker"
+    }
+}

@@ -28,7 +28,8 @@
       "recipes": [
         "expension:fire_crystal/creeper",
         "expension:fire_crystal/phantom",
-        "expension:fire_crystal/silverfish"
+        "expension:fire_crystal/silverfish",
+        "expension:fire_crystal/shulker"
       ]
     }
   }

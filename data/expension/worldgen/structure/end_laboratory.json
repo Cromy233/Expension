@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": [
+      "end_barrens",
+      "small_end_islands",
+      "end_midlands"
+    ],
+    "max_distance_from_center": 80,
+    "size": 7,
+    "spawn_overrides": {
+      "monster": {
+        "spawns": [],
+        "bounding_box": "full"
+      }
+    },
+    "start_height": {
+      "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": 256
+          },
+          "min_inclusive": {
+            "absolute": 128
+          }
+    },
+    "start_pool": "expension:end_laboratory/start",
+    "step": "surface_structures",
+    "terrain_adaptation": "none",
+    "use_expansion_hack": false
+}

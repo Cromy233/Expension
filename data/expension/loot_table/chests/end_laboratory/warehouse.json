@@ -1,0 +1,167 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+           {
+            "type": "item",
+            "name": "chorus_flower",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 8,
+                  "min": 2
+                }
+              }
+            ]
+           },
+           {
+            "type": "item",
+            "name": "popped_chorus_fruit",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 12,
+                  "min": 4
+                }
+              }
+            ]
+           },
+           {
+            "type": "item",
+            "name": "dragon_breath",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 2,
+                  "min": 1
+                }
+              }
+            ]
+           },
+           {
+            "type": "item",
+            "name": "piston",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 8,
+                  "min": 2
+                }
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "block_state": {
+                    "extended": "true"
+                  }
+                }
+              }
+            ]
+           },
+           {
+            "type": "item",
+            "name": "tnt",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 16,
+                  "min": 4
+                }
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "block_state": {
+                    "unstable": "true"
+                  }
+                }
+              }
+            ]
+           },
+           {
+            "type": "item",
+            "name": "end_stone_bricks",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 8,
+                  "min": 2
+                }
+              }
+            ]
+           },
+           {
+            "type": "item",
+            "name": "pitcher_plant",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+           },
+           {
+            "type": "item",
+            "name": "quartz",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 12,
+                  "min": 4
+                }
+              }
+            ]
+           },
+           {
+            "type": "group",
+            "children": [
+              {
+                "type": "loot_table",
+                "value": "expension:get_item/fire_crystal/creeper"
+              },
+              {
+                "type": "loot_table",
+                "value": "expension:get_item/fire_crystal/phantom"
+              },
+              {
+                "type": "loot_table",
+                "value": "expension:get_item/fire_crystal/player"
+              },
+              {
+                "type": "loot_table",
+                "value": "expension:get_item/fire_crystal/silverfish"
+              },
+              {
+                "type": "loot_table",
+                "value": "expension:get_item/fire_crystal/shulker"
+              }
+            ]
+           },
+           {
+            "type": "item",
+            "name": "chorus_fruit",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 12,
+                  "min": 4
+                }
+              }
+            ]
+           }
+        ],
+        "rolls": 1.0
+      }
+    ],
+    "random_sequence": "minecraft:chests/end_city_treasure"
+}

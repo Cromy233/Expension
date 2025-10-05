@@ -1,0 +1,78 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "item",
+            "name": "enchanted_golden_apple",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "golden_apple",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 3,
+                  "min": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "value": "expension:get_item/golden_baked_potato",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 3,
+                  "min": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "set_potion",
+                "id": "night_vision"
+              }
+            ]
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 5.0,
+          "min": 2.0
+        }
+      },
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "chorus_fruit",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 16,
+                  "min": 8
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1.0
+      }
+    ],
+    "random_sequence": "minecraft:chests/end_city_treasure"
+}

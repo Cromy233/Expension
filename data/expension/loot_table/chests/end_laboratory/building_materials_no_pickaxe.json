@@ -1,0 +1,170 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+            {
+              "type": "item",
+              "name": "purpur_block",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "max": 22,
+                    "min": 10
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "purpur_pillar",
+              "weight": 5,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "max": 22,
+                    "min": 10
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "purpur_slab",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "max": 22,
+                    "min": 10
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "purpur_stairs",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "max": 22,
+                    "min": 10
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "end_stone",
+              "weight": 5,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "max": 22,
+                    "min": 10
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "end_stone_bricks",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "max": 22,
+                    "min": 10
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "end_stone_brick_slab",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "max": 22,
+                    "min": 10
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "end_stone_brick_stairs",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "max": 22,
+                    "min": 10
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "end_stone_brick_wall",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "max": 22,
+                    "min": 10
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "magenta_stained_glass",
+              "weight": 8,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "max": 22,
+                    "min": 10
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "obsidian",
+              "weight": 8,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "max": 22,
+                    "min": 10
+                  }
+                }
+              ]
+            }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 5.0,
+          "min": 2.0
+        }
+      }
+    ],
+    "random_sequence": "minecraft:chests/end_city_treasure"
+}

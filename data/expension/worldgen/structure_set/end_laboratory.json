@@ -1,0 +1,19 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 114514,
+        "separation": 8,
+        "spacing": 16,
+        "frequency": 1,
+        "exclusion_zone": {
+            "chunk_count": 8,
+            "other_set": "end_cities"
+        }
+    },
+    "structures": [
+        {
+            "structure": "expension:end_laboratory",
+            "weight": 1
+        }
+    ]
+}

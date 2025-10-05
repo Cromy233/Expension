@@ -1,0 +1,79 @@
+{
+    "name": "expension:end_laboratory_main_decor",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 12,
+        "element": {
+          "location": "expension:end_laboratory/main_decor/armory",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 12,
+        "element": {
+          "location": "expension:end_laboratory/main_decor/building_materials",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 12,
+        "element": {
+          "location": "expension:end_laboratory/main_decor/supply",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 12,
+        "element": {
+          "location": "expension:end_laboratory/main_decor/enchantments",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "expension:end_laboratory/main_decor/earth",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "expension:end_laboratory/main_decor/fire",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "expension:end_laboratory/main_decor/water",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "expension:end_laboratory/main_decor/wind",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  

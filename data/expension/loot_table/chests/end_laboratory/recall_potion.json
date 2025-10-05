@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+            {
+                "type": "loot_table",
+                "value": "expension:get_item/recall_potion",
+                "functions": [
+                    {
+                        "function": "set_count",
+                        "count": {
+                            "max": 2,
+                            "min": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "glass_bottle",
+                "functions": [
+                    {
+                        "function": "set_count",
+                        "count": 1
+                    }
+                ]
+            }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 3.0,
+          "min": 0.0
+        }
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+            {
+                "type": "loot_table",
+                "value": "expension:get_item/recall_potion",
+                "functions": [
+                    {
+                        "function": "set_count",
+                        "count": 4
+                    }
+                ]
+            }
+        ],
+        "rolls": 1.0
+      }
+    ],
+    "random_sequence": "minecraft:chests/end_city_treasure"
+}
