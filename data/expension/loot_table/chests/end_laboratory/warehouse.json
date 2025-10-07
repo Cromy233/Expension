@@ -7,6 +7,7 @@
            {
             "type": "item",
             "name": "chorus_flower",
+            "weight": 10,
             "functions": [
               {
                 "function": "set_count",
@@ -20,6 +21,7 @@
            {
             "type": "item",
             "name": "popped_chorus_fruit",
+            "weight": 10,
             "functions": [
               {
                 "function": "set_count",
@@ -33,6 +35,7 @@
            {
             "type": "item",
             "name": "dragon_breath",
+            "weight": 10,
             "functions": [
               {
                 "function": "set_count",
@@ -46,6 +49,7 @@
            {
             "type": "item",
             "name": "piston",
+            "weight": 10,
             "functions": [
               {
                 "function": "set_count",
@@ -67,6 +71,7 @@
            {
             "type": "item",
             "name": "tnt",
+            "weight": 10,
             "functions": [
               {
                 "function": "set_count",
@@ -88,6 +93,7 @@
            {
             "type": "item",
             "name": "end_stone_bricks",
+            "weight": 8,
             "functions": [
               {
                 "function": "set_count",
@@ -101,6 +107,7 @@
            {
             "type": "item",
             "name": "pitcher_plant",
+            "weight": 10,
             "functions": [
               {
                 "function": "set_count",
@@ -111,6 +118,7 @@
            {
             "type": "item",
             "name": "quartz",
+            "weight": 10,
             "functions": [
               {
                 "function": "set_count",
@@ -122,33 +130,34 @@
             ]
            },
            {
-            "type": "group",
-            "children": [
-              {
-                "type": "loot_table",
-                "value": "expension:get_item/fire_crystal/creeper"
-              },
-              {
-                "type": "loot_table",
-                "value": "expension:get_item/fire_crystal/phantom"
-              },
-              {
-                "type": "loot_table",
-                "value": "expension:get_item/fire_crystal/player"
-              },
-              {
-                "type": "loot_table",
-                "value": "expension:get_item/fire_crystal/silverfish"
-              },
-              {
-                "type": "loot_table",
-                "value": "expension:get_item/fire_crystal/shulker"
-              }
-            ]
+            "type": "loot_table",
+            "value": "expension:get_item/fire_crystal/creeper",
+            "weight": 1
+           },
+           {
+            "type": "loot_table",
+            "value": "expension:get_item/fire_crystal/phantom",
+            "weight": 1
+           },
+           {
+            "type": "loot_table",
+            "value": "expension:get_item/fire_crystal/player",
+            "weight": 2
+           },
+           {
+            "type": "loot_table",
+            "value": "expension:get_item/fire_crystal/shulker",
+            "weight": 2
+           },
+           {
+            "type": "loot_table",
+            "value": "expension:get_item/fire_crystal/silverfish",
+            "weight": 1
            },
            {
             "type": "item",
             "name": "chorus_fruit",
+            "weight": 8,
             "functions": [
               {
                 "function": "set_count",
