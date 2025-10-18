@@ -14,7 +14,9 @@
                             "enchantments": [
                                 {
                                     "enchantments": "fire_aspect",
-                                    "levels": 2
+                                    "levels": {
+                                        "min": 2
+                                    }
                                 }
                             ]
                         }
@@ -35,7 +37,9 @@
                             "enchantments": [
                                 {
                                     "enchantments": "fire_aspect",
-                                    "levels": 2
+                                    "levels": {
+                                        "min": 2
+                                    }
                                 }
                             ]
                         }

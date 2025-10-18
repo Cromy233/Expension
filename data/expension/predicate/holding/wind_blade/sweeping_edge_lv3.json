@@ -14,7 +14,9 @@
                             "enchantments": [
                                 {
                                     "enchantments": "sweeping_edge",
-                                    "levels": 3
+                                    "levels": {
+                                        "min": 3
+                                    }
                                 }
                             ]
                         }
@@ -35,7 +37,9 @@
                             "enchantments": [
                                 {
                                     "enchantments": "sweeping_edge",
-                                    "levels": 3
+                                    "levels": {
+                                        "min": 3
+                                    }
                                 }
                             ]
                         }

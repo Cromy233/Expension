@@ -11,7 +11,9 @@
                     "enchantments": [
                         {
                             "enchantments": "knockback",
-                            "levels": 2
+                            "levels": {
+                                "min": 2
+                            }
                         }
                     ]
                 }
