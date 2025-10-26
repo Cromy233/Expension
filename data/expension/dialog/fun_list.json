@@ -1,0 +1,71 @@
+{
+    "title": "",
+    "columns": 1,
+    "body": {
+        "type": "item",
+        "item": {
+            "id": "creeper_head"
+        },
+        "description": {
+            "text": "整活"
+        },
+        "show_tooltip": false
+    },
+    "type": "multi_action",
+    "actions": [
+        {
+            "label": {
+                "text": "戴在头上"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "function expension:fun/put_on_head"
+            }
+        },
+        {
+            "label": {
+                "text": "哇还有骑乘"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "ride @s mount @n[type=#expension:mobs,distance=..3]"
+            }
+        },
+        {
+            "label": {
+                "text": "自爆"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "function expension:fun/explode"
+            }
+        },
+        {
+            "label": {
+                "text": "变大"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "attribute @s minecraft:scale modifier add expension:fun 1 add_multiplied_total"
+            }
+        },
+        {
+            "label": {
+                "text": "恢复尺寸"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "attribute @s minecraft:scale modifier remove expension:fun"
+            }
+        },
+        {
+            "label": {
+                "text": "返回"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "expension:quick_operation"
+            }
+        }
+    ]
+}

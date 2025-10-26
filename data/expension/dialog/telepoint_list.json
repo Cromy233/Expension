@@ -1,0 +1,62 @@
+{
+    "title": "",
+    "columns": 1,
+    "body": {
+        "type": "item",
+        "item": {
+            "id": "ender_eye"
+        },
+        "description": {
+            "text": "传送"
+        },
+        "show_tooltip": false
+    },
+    "type": "multi_action",
+    "inputs": [
+        {
+            "type": "text",
+            "key": "Target",
+            "label": {
+                "text": "目标名称"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "text": "传送"
+            },
+            "action": {
+                "type": "dynamic/run_command",
+                "template": "tp @n[name=$(Target)]"
+            }
+        },
+        {
+            "label": {
+                "text": "最近玩家"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "tp @p[distance=0.001..]"
+            }
+        },
+        {
+            "label": {
+                "text": "随机玩家"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "tp @r[distance=0.001..]"
+            }
+        },
+        {
+            "label": {
+                "text": "返回"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "expension:quick_operation"
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "title": "",
+    "body": {
+        "type": "item",
+        "item": {
+            "id": "diamond_sword"
+        },
+        "description": {
+            "text": "快捷操作"
+        },
+        "show_tooltip": false
+    },
+    "columns": 1,
+    "type": "multi_action",
+    "actions": [
+        {
+            "label": {
+                "text": "传送"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "expension:telepoint_list"
+            }
+        },
+        {
+            "label": {
+                "text": "整活"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "expension:fun_list"
+            }
+        },
+        {
+            "label": {
+                "text": "退出"
+            },
+            "action": {
+                "type": "change_page",
+                "page": 1
+            }
+        }
+    ]
+}
