@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "expension:enchantment/parry/lv3": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "type": {
+            "is_direct": true
+          }
+        },
+        "player": {
+         "slots": {
+          "weapon.*": {
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "expension:parry",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          }
+         } 
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "expension:enchantment/parry/lv3"
+  }
+}

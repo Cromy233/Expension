@@ -1,0 +1,118 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "translate": "enchantment.expension.tremor"
+    },
+    "effects": {
+      "knockback": [
+        {
+          "effect": {
+            "type": "add",
+            "value": {
+              "type": "linear",
+              "base": 0.3,
+              "per_level_above_first": 0.2
+            }
+          }
+        }
+      ],
+      "post_attack": [
+        {
+          "affected": "victim",
+          "enchanted": "attacker",
+          "effect": {
+            "type": "apply_impulse",
+            "coordinate_scale": [0,1,0],
+            "direction": [0,0,-1],
+            "magnitude": {
+              "type": "linear",
+              "base": 0.3,
+              "per_level_above_first": 0.2
+            }
+          }
+        },
+        {
+          "affected": "attacker",
+          "enchanted": "attacker",
+          "effect": {
+            "type": "apply_impulse",
+            "coordinate_scale": [1,1,1],
+            "direction": [0,0,-1],
+            "magnitude": {
+              "type": "linear",
+              "base": 0.3,
+              "per_level_above_first": 0.2
+            }
+          }
+        },
+        {
+          "affected": "attacker",
+          "enchanted": "attacker",
+          "effect": {
+            "type": "change_item_damage",
+            "amount": -2
+          }
+        },
+        {
+          "affected": "attacker",
+          "enchanted": "attacker",
+          "effect": {
+            "type": "play_sound",
+            "sound": "item.shield.block",
+            "volume": 1,
+            "pitch": {
+              "type": "uniform",
+              "max_exclusive": 1,
+              "min_inclusive": 0.75
+            }
+          }
+        },
+        {
+          "affected": "attacker",
+          "enchanted": "attacker",
+          "effect": {
+            "type": "play_sound",
+            "sound": "item.mace.smash_air",
+            "volume": 0.33,
+            "pitch": {
+              "type": "uniform",
+              "max_exclusive": 1,
+              "min_inclusive": 0.75
+            }
+          }
+        }
+      ],
+      "attributes": [
+        {
+          "id": "expension:tremor",
+          "attribute": "attack_speed",
+          "amount": -3.2,
+          "operation": "add_value"
+        },
+        {
+          "id": "expension:tremor",
+          "attribute": "attack_damage",
+          "amount": {
+            "type": "linear",
+            "base": 2,
+            "per_level_above_first": 1
+          },
+          "operation": "add_value"
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 57,
+      "per_level_above_first": 24
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 36,
+      "per_level_above_first": 20
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "minecraft:shield",
+    "weight": 1
+}
