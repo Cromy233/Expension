@@ -22,6 +22,6 @@ execute positioned ^ ^ ^2 as @e[type=#expension:mobs,tag=!inferno_whip_exclude,d
 #execute positioned ^ ^ ^2 as @e[type=#expension:mobs,tag=!inferno_whip_exclude,distance=..2] run data modify entity @s NoAI set value true
 
 tag @e[tag=inferno_whip_exclude] remove inferno_whip_exclude
-schedule function expension:inferno_whip_clear 1t replace
+schedule function expension:inferno_whip/clear 1t replace
 
 advancement revoke @s only expension:check/inferno_whip_attack

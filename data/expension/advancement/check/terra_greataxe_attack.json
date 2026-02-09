@@ -23,6 +23,6 @@
         }
     },
     "rewards": {
-        "function": "expension:terra_greataxe_attack"
+        "function": "expension:terra_greataxe/attack"
     }
 }

@@ -23,6 +23,6 @@
         }
     },
     "rewards": {
-        "function": "expension:inferno_whip_attack"
+        "function": "expension:inferno_whip/attack"
     }
 }

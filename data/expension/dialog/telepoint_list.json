@@ -55,7 +55,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "expension:quick_operation"
+                "dialog": "expension:quick_actions"
             }
         }
     ]

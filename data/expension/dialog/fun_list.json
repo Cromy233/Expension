@@ -24,7 +24,7 @@
         },
         {
             "label": {
-                "text": "哇还有骑乘"
+                "text": "骑乘"
             },
             "action": {
                 "type": "run_command",
@@ -64,7 +64,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "expension:quick_operation"
+                "dialog": "expension:quick_actions"
             }
         }
     ]
