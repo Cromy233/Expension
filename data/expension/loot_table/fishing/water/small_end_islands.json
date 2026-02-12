@@ -6,9 +6,15 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "quality": -2,
+            "quality": -1,
             "value": "expension:fishing/water/small_end_islands/junk",
-            "weight": 40
+            "weight": 15
+          },
+          {
+            "type": "minecraft:loot_table",
+            "quality": 1,
+            "value": "expension:fishing/water/small_end_islands/fish",
+            "weight": 30
           },
           {
             "type": "minecraft:loot_table",
@@ -24,15 +30,25 @@
                 }
               }
             ],
-            "quality": 2,
             "value": "expension:fishing/water/small_end_islands/treasure",
-            "weight": 20
+            "weight": 15
           },
           {
             "type": "minecraft:loot_table",
-            "quality": 0,
             "value": "expension:fishing/water/small_end_islands/fish",
-            "weight": 40
+            "weight": 40,
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "minecraft:fishing_hook",
+                    "in_open_water": true
+                  }
+                }
+              }
+            ]
           }
         ],
         "rolls": 1.0

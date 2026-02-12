@@ -8,7 +8,7 @@
             "type": "minecraft:loot_table",
             "quality": -2,
             "value": "expension:fishing/water/the_end/junk",
-            "weight": 20
+            "weight": 25
           },
           {
             "type": "minecraft:loot_table",
@@ -24,13 +24,12 @@
                 }
               }
             ],
-            "quality": 2,
             "value": "expension:fishing/water/the_end/treasure",
-            "weight": 20
+            "weight": 15
           },
           {
             "type": "minecraft:loot_table",
-            "quality": 0,
+            "quality": 2,
             "value": "expension:fishing/water/the_end/fish",
             "weight": 60
           }

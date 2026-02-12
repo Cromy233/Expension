@@ -6,9 +6,9 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "quality": -2,
+            "quality": -1,
             "value": "expension:fishing/water/end_midlands/junk",
-            "weight": 10
+            "weight": 20
           },
           {
             "type": "minecraft:loot_table",
@@ -24,15 +24,14 @@
                 }
               }
             ],
-            "quality": 2,
             "value": "expension:fishing/water/end_midlands/treasure",
-            "weight": 20
+            "weight": 15
           },
           {
             "type": "minecraft:loot_table",
-            "quality": 0,
+            "quality": 1,
             "value": "expension:fishing/water/end_midlands/fish",
-            "weight": 70
+            "weight": 65
           }
         ],
         "rolls": 1.0

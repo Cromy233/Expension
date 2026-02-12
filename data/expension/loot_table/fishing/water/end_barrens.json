@@ -1,42 +1,58 @@
 {
-    "type": "minecraft:fishing",
-    "pools": [
-      {
-        "bonus_rolls": 0.0,
-        "entries": [
-          {
-            "type": "minecraft:loot_table",
-            "quality": -2,
-            "value": "expension:fishing/water/end_barrens/junk",
-            "weight": 30
-          },
-          {
-            "type": "minecraft:loot_table",
-            "conditions": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "type_specific": {
-                    "type": "minecraft:fishing_hook",
-                    "in_open_water": true
-                  }
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "quality": -1,
+          "value": "expension:fishing/water/end_barrens/junk",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "quality": 1,
+          "value": "expension:fishing/water/end_barrens/fish",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook",
+                  "in_open_water": true
                 }
               }
-            ],
-            "quality": 2,
-            "value": "expension:fishing/water/end_barrens/treasure",
-            "weight": 20
-          },
-          {
-            "type": "minecraft:loot_table",
-            "quality": 0,
-            "value": "expension:fishing/water/end_barrens/fish",
-            "weight": 50
-          }
-        ],
-        "rolls": 1.0
-      }
-    ],
-    "random_sequence": "minecraft:gameplay/fishing"
+            }
+          ],
+          "value": "expension:fishing/water/end_barrens/treasure",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "expension:fishing/water/end_barrens/fish",
+          "weight": 40,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook",
+                  "in_open_water": true
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing"
 }

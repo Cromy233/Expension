@@ -11,7 +11,7 @@
                     "function": "set_count",
                     "count": {
                         "min": 2,
-                        "max": 5
+                        "max": 4
                     }
                 }
             ]
@@ -23,8 +23,8 @@
                 {
                     "function": "set_count",
                     "count": {
-                        "min": 4,
-                        "max": 8
+                        "min": 6,
+                        "max": 12
                     }
                 }
             ]
@@ -36,8 +36,8 @@
                 {
                     "function": "set_count",
                     "count": {
-                        "min": 4,
-                        "max": 8
+                        "min": 6,
+                        "max": 12
                     }
                 }
             ]

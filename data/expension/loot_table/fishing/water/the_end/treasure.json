@@ -11,8 +11,8 @@
               "add": false,
               "damage": {
                 "type": "minecraft:uniform",
-                "max": 0.25,
-                "min": 0.0
+                "max": 0.5,
+                "min": 0.25
               },
               "function": "minecraft:set_damage"
             },
@@ -23,7 +23,7 @@
             }
           ],
           "name": "minecraft:bow",
-          "weight": 10
+          "weight": 9
         },
         {
           "type": "minecraft:item",
@@ -32,8 +32,8 @@
               "add": false,
               "damage": {
                 "type": "minecraft:uniform",
-                "max": 0.25,
-                "min": 0.0
+                "max": 0.5,
+                "min": 0.25
               },
               "function": "minecraft:set_damage"
             },
@@ -44,7 +44,7 @@
             }
           ],
           "name": "minecraft:crossbow",
-          "weight": 10
+          "weight": 9
         },
         {
           "type": "minecraft:item",
@@ -53,19 +53,32 @@
               "add": false,
               "damage": {
                 "type": "minecraft:uniform",
-                "max": 0.25,
-                "min": 0.0
+                "max": 0.5,
+                "min": 0.25
               },
               "function": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 40.0,
-              "options": "#minecraft:on_random_loot"
+              "function": "enchant_randomly",
+              "options": [
+                "unbreaking",
+                "expension:parry",
+                "mending",
+                "expension:tremor"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "options": [
+                "unbreaking",
+                "expension:parry",
+                "mending",
+                "expension:tremor"
+              ]
             }
           ],
           "name": "minecraft:shield",
-          "weight": 10
+          "weight": 9
         },
         {
           "type": "minecraft:item",
@@ -74,8 +87,8 @@
               "add": false,
               "damage": {
                 "type": "minecraft:uniform",
-                "max": 0.25,
-                "min": 0.0
+                "max": 0.5,
+                "min": 0.25
               },
               "function": "minecraft:set_damage"
             },
@@ -86,7 +99,7 @@
             }
           ],
           "name": "minecraft:fishing_rod",
-          "weight": 10
+          "weight": 9
         },
         {
           "type": "minecraft:item",
@@ -98,12 +111,12 @@
             }
           ],
           "name": "minecraft:book",
-          "weight": 40
+          "weight": 27
         },
         {
           "type": "loot_table",
-          "value": "expension:crate/void",
-          "weight": 40
+          "value": "expension:item_list/crate/void",
+          "weight": 36
         },
         {
           "type": "loot_table",
