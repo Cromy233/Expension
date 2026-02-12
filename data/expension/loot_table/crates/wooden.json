@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 5.0,
+          "min": 2.0
+        }
+      }
+    ],
+    "random_sequence": "expension:crates"
+}

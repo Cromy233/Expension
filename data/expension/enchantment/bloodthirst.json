@@ -42,6 +42,6 @@
     "slots": [
       "mainhand"
     ],
-    "supported_items": "#minecraft:axes",
+    "supported_items": "#enchantable/sharp_weapon",
     "weight": 2
   }

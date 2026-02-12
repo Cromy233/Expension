@@ -1,5 +1,8 @@
-# Y Speed
-# execute as @a store result score @s expension_y_speed run data get entity @s Motion[1] 100
+# Lava Fishing (Comming Soon!)
+#scoreboard players remove @e[tag=lava_fishing] expension_lava_fishing 1
+
+#execute as @e[type=fishing_bobber,tag=!lava_proof] at @s if block ~ ~ ~ lava[level=0] on origin if predicate expension:holding/fishing_rod/lava_proof run tag @s add lava_proof
+#execute as @e[type=fishing_bobber,tag=lava_proof,tag=!lava_fishing] run function expension:lava_fishing/start
 
 # Portal
 execute as @e[type=minecraft:item_display,tag=portal] at @s run tp @s ~ ~ ~ facing entity @p eyes
@@ -35,9 +38,12 @@ execute at @e[type=marker,tag=super_pillager,tag=spawner] run summon minecraft:p
 execute at @e[type=marker,tag=threatening_skeleton,tag=spawner] run summon wither_skeleton ~ ~ ~ {PersistenceRequired:true,equipment:{mainhand:{id:netherite_sword,components:{enchantments:{fire_aspect:2}}}}}
 execute at @e[type=marker,tag=weakening_skeleton,tag=spawner] run summon skeleton ~ ~ ~ {PersistenceRequired:true,equipment:{head:{id:chainmail_helmet},chest:{id:"chainmail_chestplate"},legs:{id:chainmail_leggings},feet:{id:chainmail_boots},mainhand:{id:bow,components:{enchantments:{power:3}}},offhand:{id:"tipped_arrow",components:{potion_contents:{potion:"weakness"}}}}}
 
-
 kill @e[tag=spawner]
 execute as @e[tag=mob_carry_block] on passengers if entity @s[type=falling_block] run data modify entity @s Time set value 0
+
+# Special Items
+execute at @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{id:"expension:missingno"}}}}] if predicate expension:random/0.1chance run particle minecraft:item{item:{id:"recovery_compass",components:{item_model:"expension:missingno"}}} ~ ~0.3 ~ 0.1 0.1 0.1 0.01 1 normal
+
 
 # Death ↓
 execute as @a[scores={expension_death=1..}] at @s run function expension:death

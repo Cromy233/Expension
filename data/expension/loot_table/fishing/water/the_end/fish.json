@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "expension:item_list/fish/dragonfish",
+          "quality": 60
+        },
+        {
+          "type": "loot_table",
+          "value": "expension:item_list/fish/end_swordfish",
+          "quality": 25
+        },
+        {
+          "type": "loot_table",
+          "value": "expension:item_list/fish/crystal_fish",
+          "quality": 15
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

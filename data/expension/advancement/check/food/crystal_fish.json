@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "expension:food/crystal_fish": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:tropical_fish",
+                    "predicates": {
+                        "custom_data": {
+                            "id": "expension:crystal_fish"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:food/crystal_fish"
+    }
+}

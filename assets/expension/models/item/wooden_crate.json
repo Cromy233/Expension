@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"particle": "expension:item/wooden_crate",
+		"up": "expension:item/wooden_crate",
+		"down": "expension:item/wooden_crate",
+		"north": "expension:item/wooden_crate_bar",
+		"south": "expension:item/wooden_crate_bar",
+		"east": "expension:item/wooden_crate_strut",
+		"west": "expension:item/wooden_crate_strut"
+	}
+}

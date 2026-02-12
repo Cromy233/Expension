@@ -6,7 +6,7 @@
         "entries": [
             {
                 "type": "loot_table",
-                "value": "expension:get_item/portal_potion",
+                "value": "expension:item_list/portal_potion",
                 "functions": [
                     {
                         "function": "set_count",
@@ -39,7 +39,7 @@
         "entries": [
             {
                 "type": "loot_table",
-                "value": "expension:get_item/portal_potion",
+                "value": "expension:item_list/portal_potion",
                 "functions": [
                     {
                         "function": "set_count",
@@ -51,5 +51,5 @@
         "rolls": 1.0
       }
     ],
-    "random_sequence": "minecraft:chests/end_city_treasure"
+    "random_sequence": "expension:chests/end_laboratory"
 }

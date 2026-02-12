@@ -1,15 +1,15 @@
 {
     "criteria": {
-        "expension:glow_berries_eat": {
+        "expension:food/chorus_fruit": {
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-                    "items": "minecraft:glow_berries"
+                    "items": "minecraft:chorus_fruit"
                 }
             }
         }
     },
     "rewards": {
-        "function": "expension:glow_berries_eat"
+        "function": "expension:food/chorus_fruit"
     }
 }

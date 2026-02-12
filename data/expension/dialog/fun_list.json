@@ -33,6 +33,15 @@
         },
         {
             "label": {
+                "text": "TNT"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "summon tnt ~ ~-1 ~ {explosion_power:0,Motion:[0,1,0],fuse:20}"
+            }
+        },
+        {
+            "label": {
                 "text": "自爆"
             },
             "action": {

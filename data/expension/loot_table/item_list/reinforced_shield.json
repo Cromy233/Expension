@@ -11,9 +11,12 @@
                 "components": {
                   "custom_data": {
                     "custom_item": true,
-                    "id": "expension:diamond_shield"
+                    "id": "expension:reinforced_shield"
                   },
-                  "max_damage": 672
+                  "item_name": {
+                    "translate": "item.expension.reinforced_shield"
+                  },
+                  "max_damage": 1010
                 }
               }
             ]

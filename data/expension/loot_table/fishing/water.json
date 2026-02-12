@@ -1,0 +1,109 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "expension:fishing/water/the_end",
+          "weight": 999,
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "biomes": [
+                  "the_end"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "value": "expension:fishing/water/end_barrens",
+          "weight": 999,
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "biomes": [
+                  "end_barrens"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "value": "expension:fishing/water/end_highlands",
+          "weight": 999,
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "biomes": [
+                  "end_highlands"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "value": "expension:fishing/water/end_midlands",
+          "weight": 999,
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "biomes": [
+                  "end_midlands"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "value": "expension:fishing/water/small_end_islands",
+          "weight": 999,
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "biomes": [
+                  "small_end_islands"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "value": "expension:fishing/water/regular",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "biomes": [
+                    "the_end",
+                    "small_end_islands",
+                    "end_midlands",
+                    "end_highlands",
+                    "end_barrens"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "expension:empty"
+}

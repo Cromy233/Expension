@@ -25,7 +25,7 @@
           },
           {
             "type": "loot_table",
-            "value": "expension:get_item/golden_baked_potato",
+            "value": "expension:item_list/golden_baked_potato",
             "weight": 3,
             "functions": [
               {
@@ -74,5 +74,5 @@
         "rolls": 1.0
       }
     ],
-    "random_sequence": "minecraft:chests/end_city_treasure"
+    "random_sequence": "expension:chests/end_laboratory"
 }

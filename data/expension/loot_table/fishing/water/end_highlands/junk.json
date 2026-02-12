@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "end_stone",
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "popped_chorus_fruit",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "popped_chorus_fruit",
+          "weight": 5
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/junk"
+}

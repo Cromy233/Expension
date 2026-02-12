@@ -1,0 +1,47 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "tropical_fish",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "custom_item": true,
+                    "id": "expension:crystal_fish"
+                  },
+                  "item_model": "expension:crystal_fish",
+                  "item_name": {
+                    "translate": "item.expension.crystal_fish"
+                  },
+                  "food": {
+                    "nutrition": 3,
+                    "saturation": 0.6,
+                    "can_always_eat": true
+                  },
+                  "consumable": {
+                    "on_consume_effects": [
+                      {
+                        "type": "apply_effects",
+                        "effects": [
+                          {
+                            "id": "regeneration",
+                            "amplifier": 2,
+                            "duration": 50
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+}

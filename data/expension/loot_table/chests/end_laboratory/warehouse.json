@@ -131,27 +131,27 @@
            },
            {
             "type": "loot_table",
-            "value": "expension:get_item/fire_crystal/creeper",
+            "value": "expension:item_list/fire_crystal/creeper",
             "weight": 1
            },
            {
             "type": "loot_table",
-            "value": "expension:get_item/fire_crystal/phantom",
+            "value": "expension:item_list/fire_crystal/phantom",
             "weight": 1
            },
            {
             "type": "loot_table",
-            "value": "expension:get_item/fire_crystal/player",
+            "value": "expension:item_list/fire_crystal/player",
             "weight": 2
            },
            {
             "type": "loot_table",
-            "value": "expension:get_item/fire_crystal/shulker",
+            "value": "expension:item_list/fire_crystal/shulker",
             "weight": 2
            },
            {
             "type": "loot_table",
-            "value": "expension:get_item/fire_crystal/silverfish",
+            "value": "expension:item_list/fire_crystal/silverfish",
             "weight": 1
            },
            {
@@ -172,5 +172,5 @@
         "rolls": 1.0
       }
     ],
-    "random_sequence": "minecraft:chests/end_city_treasure"
+    "random_sequence": "expension:chests/end_laboratory"
 }

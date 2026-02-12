@@ -10,27 +10,38 @@
             "type": "add",
             "value": {
               "type": "linear",
-              "base": 0.3,
-              "per_level_above_first": 0.2
+              "base": 0.6,
+              "per_level_above_first": 0.3
             }
           }
         }
       ],
-      "post_attack": [
+      "damage": [
         {
-          "affected": "victim",
-          "enchanted": "attacker",
           "effect": {
-            "type": "apply_impulse",
-            "coordinate_scale": [0,1,0],
-            "direction": [0,0,-1],
-            "magnitude": {
+            "type": "add",
+            "value": {
               "type": "linear",
-              "base": 0.3,
-              "per_level_above_first": 0.2
+              "base": 1,
+              "per_level_above_first": 1
             }
-          }
-        },
+          },
+          "requirements": [
+            {
+              "condition": "entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "movement": {
+                  "y": {
+                    "max": -0.01
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "post_attack": [
         {
           "affected": "attacker",
           "enchanted": "attacker",
@@ -40,8 +51,8 @@
             "direction": [0,0,-1],
             "magnitude": {
               "type": "linear",
-              "base": 0.3,
-              "per_level_above_first": 0.2
+              "base": 0.4,
+              "per_level_above_first": 0.1
             }
           }
         },
@@ -50,7 +61,7 @@
           "enchanted": "attacker",
           "effect": {
             "type": "change_item_damage",
-            "amount": -2
+            "amount": 2
           }
         },
         {
@@ -94,7 +105,7 @@
           "attribute": "attack_damage",
           "amount": {
             "type": "linear",
-            "base": 2,
+            "base": 3,
             "per_level_above_first": 1
           },
           "operation": "add_value"
