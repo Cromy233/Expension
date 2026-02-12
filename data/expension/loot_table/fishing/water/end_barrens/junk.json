@@ -5,8 +5,18 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
+          "type": "empty",
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "end_stone",
+          "weight": 8
+        },
+        {
           "type": "loot_table",
-          "value": "expension:fishing/water/small_end_islands/junk"
+          "value": "expension:item_list/missingno",
+          "weight": 2
         }
       ],
       "rolls": 1.0

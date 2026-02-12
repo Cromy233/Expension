@@ -1,0 +1,120 @@
+{
+    "pools": [
+      {
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "loot_table",
+            "value": "expension:item_list/fish/crystal_fish",
+            "functions": [
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 5
+                    }
+                }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "value": "expension:item_list/fish/dragonfish",
+            "functions": [
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "value": "expension:item_list/fish/end_swordfish",
+            "functions": [
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 2,
+          "max": 4
+        },
+        "entries": [
+          {
+            "type": "loot_table",
+            "value": "expension:item_list/enchanted_golden_baked_potato",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30,
+                "options": "#minecraft:on_random_loot"
+              }
+            ],
+            "name": "minecraft:book",
+            "weight": 10
+          },
+          {
+            "type": "item",
+            "name": "diamond",
+            "weight": 6,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 8,
+                  "min": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "experience_bottle",
+            "weight": 6,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 14,
+                  "min": 6
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "shulker_shell",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 3,
+                  "min": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "end_crystal",
+            "weight": 2
+          }
+        ]
+      }
+    ]
+  }

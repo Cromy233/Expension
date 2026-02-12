@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "expension:crate/wooden": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "id": "expension:wooden_crate"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:crate/wooden"
+    }
+}

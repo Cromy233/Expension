@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "expension:fishing/water/regular/treasure"
+          "value": "expension:fishing/water/the_end/treasure"
         }
       ],
       "rolls": 1.0

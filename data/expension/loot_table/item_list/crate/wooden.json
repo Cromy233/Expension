@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "recovery_compass",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "custom_item": true,
+                    "id": "expension:wooden_crate"
+                  },
+                  "item_model": "expension:wooden_crate",
+                  "item_name": {
+                    "translate": "item.expension.wooden_crate"
+                  },
+                  "consumable": {
+                    "consume_seconds": 0,
+                    "sound": "block.barrel.open",
+                    "has_consume_particles": false
+                  },
+                  "max_stack_size": 16,
+                  "rarity": "common"
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  }

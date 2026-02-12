@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "expension:crate/end": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "id": "expension:void_crate"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:crate/void"
+    }
+}

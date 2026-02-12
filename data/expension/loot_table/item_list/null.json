@@ -1,0 +1,30 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "recovery_compass",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "custom_item": true,
+                    "id": "expension:null"
+                  },
+                  "item_model": "expension:null",
+                  "item_name": "",
+                  "rarity": "epic",
+                  "tooltip_display": {
+                    "hide_tooltip": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  }

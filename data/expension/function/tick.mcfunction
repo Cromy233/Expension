@@ -43,7 +43,8 @@ execute as @e[tag=mob_carry_block] on passengers if entity @s[type=falling_block
 
 # Special Items
 execute at @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{id:"expension:missingno"}}}}] if predicate expension:random/0.1chance run particle minecraft:item{item:{id:"recovery_compass",components:{item_model:"expension:missingno"}}} ~ ~0.3 ~ 0.1 0.1 0.1 0.01 1 normal
-
+execute at @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{id:"expension:null"}}}}] if predicate expension:random/0.1chance run particle minecraft:item{item:{id:"recovery_compass",components:{item_model:"expension:null"}}} ~ ~0.3 ~ 0.1 0.1 0.1 0.01 1 normal
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{id:"expension:null"}}}}] run data modify entity @s Glowing set value true
 
 # Death ↓
 execute as @a[scores={expension_death=1..}] at @s run function expension:death

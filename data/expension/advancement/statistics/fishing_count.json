@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "expension:statistics/fishing_count": {
+        "trigger": "minecraft:fishing_rod_hooked",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:fishing_bobber"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "expension:fishing_count"
+    }
+} 

@@ -6,7 +6,13 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "expension:fishing/water/small_end_islands/fish"
+          "value": "expension:item_list/fish/dragonfish",
+          "quality": 60
+        },
+        {
+          "type": "loot_table",
+          "value": "expension:item_list/fish/end_swordfish",
+          "quality": 25
         }
       ],
       "rolls": 1.0

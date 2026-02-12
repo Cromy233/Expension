@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "expension:fishing/water/small_end_islands/fish"
+          "value": "expension:fishing/water/end_barrens/fish"
         }
       ],
       "rolls": 1.0
