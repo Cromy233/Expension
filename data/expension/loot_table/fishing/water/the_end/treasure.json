@@ -64,7 +64,8 @@
                 "unbreaking",
                 "expension:parry",
                 "mending",
-                "expension:tremor"
+                "expension:tremor",
+                "expension:deflect"
               ]
             }
           ],
