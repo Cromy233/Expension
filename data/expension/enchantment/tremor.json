@@ -124,6 +124,7 @@
     "slots": [
       "mainhand"
     ],
+    "exclusive_set": "#exclusive_set/shield",
     "supported_items": "minecraft:shield",
     "weight": 1
 }

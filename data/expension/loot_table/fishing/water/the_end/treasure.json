@@ -47,7 +47,7 @@
           "weight": 9
         },
         {
-          "type": "minecraft:item",
+          "type": "loot_table",
           "functions": [
             {
               "add": false,
@@ -66,18 +66,9 @@
                 "mending",
                 "expension:tremor"
               ]
-            },
-            {
-              "function": "enchant_randomly",
-              "options": [
-                "unbreaking",
-                "expension:parry",
-                "mending",
-                "expension:tremor"
-              ]
             }
           ],
-          "name": "minecraft:shield",
+          "value": "expension:item_list/reinforced_shield",
           "weight": 9
         },
         {

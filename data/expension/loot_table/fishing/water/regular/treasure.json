@@ -7,12 +7,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:name_tag",
-          "weight": 5
+          "weight": 6
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:saddle",
-          "weight": 5
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -54,7 +54,7 @@
             }
           ],
           "name": "minecraft:crossbow",
-          "weight": 5
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -69,13 +69,16 @@
               "function": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30.0,
-              "options": "#minecraft:on_random_loot"
+              "function": "enchant_randomly",
+              "options": [
+                "unbreaking",
+                "expension:parry",
+                "mending"
+              ]
             }
           ],
           "name": "minecraft:shield",
-          "weight": 5
+          "weight": 2
         },
         {
           "type": "minecraft:item",

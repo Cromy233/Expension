@@ -1,0 +1,2 @@
+execute align xyz run summon minecraft:item_display ~.5 ~.5 ~.5 {item:{id:"recovery_compass",components:{item_model:"expension:null"}}}
+execute align xyz run setblock ~ ~ ~ barrier
