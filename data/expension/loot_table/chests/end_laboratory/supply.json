@@ -25,6 +25,11 @@
           },
           {
             "type": "loot_table",
+            "value": "expension:item_list/enchanted_golden_baked_potato",
+            "weight": 1
+          },
+          {
+            "type": "loot_table",
             "value": "expension:item_list/golden_baked_potato",
             "weight": 3,
             "functions": [

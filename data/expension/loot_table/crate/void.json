@@ -53,7 +53,21 @@
           {
             "type": "loot_table",
             "value": "expension:item_list/enchanted_golden_baked_potato",
-            "weight": 10
+            "weight": 8
+          },
+          {
+            "type": "loot_table",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 3,
+                  "min": 1
+                }
+              }
+            ],
+            "value": "expension:item_list/golden_baked_potato",
+            "weight": 2
           },
           {
             "type": "minecraft:item",
@@ -65,7 +79,22 @@
               }
             ],
             "name": "minecraft:book",
-            "weight": 10
+            "weight": 6
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "enchant_randomly",
+                "options": "#non_treasure"
+              },
+              {
+                "function": "enchant_randomly",
+                "options": "#treasure"
+              }
+            ],
+            "name": "minecraft:book",
+            "weight": 2
           },
           {
             "type": "item",
@@ -89,7 +118,7 @@
               {
                 "function": "set_count",
                 "count": {
-                  "max": 14,
+                  "max": 12,
                   "min": 6
                 }
               }
@@ -103,7 +132,21 @@
               {
                 "function": "set_count",
                 "count": {
-                  "max": 3,
+                  "max": 2,
+                  "min": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "dragon_breath",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "max": 2,
                   "min": 1
                 }
               }
@@ -112,7 +155,7 @@
           {
             "type": "item",
             "name": "end_crystal",
-            "weight": 2
+            "weight": 1
           }
         ]
       }
