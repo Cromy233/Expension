@@ -534,12 +534,24 @@
               {
                 "function": "enchant_randomly",
                 "only_compatible": true,
-                "options": "#minecraft:in_enchanting_table"
+                "options": [
+                  "unbreaking",
+                  "expension:parry",
+                  "mending",
+                  "expension:tremor",
+                  "expension:deflect"
+                ]
               },
               {
                 "function": "enchant_randomly",
                 "only_compatible": true,
-                "options": "#minecraft:in_enchanting_table"
+                "options": [
+                  "unbreaking",
+                  "expension:parry",
+                  "mending",
+                  "expension:tremor",
+                  "expension:deflect"
+                ]
               },
               {
                 "function": "set_damage",
