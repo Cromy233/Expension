@@ -6,4 +6,4 @@ scoreboard objectives add expension_deflect dummy
 scoreboard objectives add expension_death deathCount
 #scoreboard objectives add expension_lava_fishing dummy
 
-scoreboard objectives add fishing_count dummy "钓鱼数量"
+scoreboard objectives add expension_fishing_count dummy "钓鱼数量"
