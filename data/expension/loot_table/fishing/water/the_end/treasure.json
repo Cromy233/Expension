@@ -18,12 +18,12 @@
             },
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 40.0,
+              "levels": 35.0,
               "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:bow",
-          "weight": 9
+          "weight": 12
         },
         {
           "type": "minecraft:item",
@@ -39,12 +39,12 @@
             },
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 40.0,
+              "levels": 35.0,
               "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:crossbow",
-          "weight": 9
+          "weight": 12
         },
         {
           "type": "loot_table",
@@ -70,7 +70,7 @@
             }
           ],
           "value": "expension:item_list/reinforced_shield",
-          "weight": 9
+          "weight": 12
         },
         {
           "type": "minecraft:item",
@@ -86,12 +86,12 @@
             },
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 40.0,
+              "levels": 35.0,
               "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:fishing_rod",
-          "weight": 9
+          "weight": 12
         },
         {
           "type": "minecraft:item",
@@ -103,12 +103,12 @@
             }
           ],
           "name": "minecraft:book",
-          "weight": 27
+          "weight": 21
         },
         {
           "type": "loot_table",
           "value": "expension:item_list/crate/void",
-          "weight": 36
+          "weight": 30
         },
         {
           "type": "loot_table",
