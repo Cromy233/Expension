@@ -1,0 +1,51 @@
+{
+    "title": "",
+    "columns": 1,
+    "pause": false,
+    "body": {
+        "type": "item",
+        "item": {
+            "id": "recovery_compass",
+            "components": {
+                "item_model": "expension:dice"
+            }
+        },
+        "show_tooltip": false
+    },
+    "type": "multi_action",
+    "inputs": [
+        {
+            "type": "minecraft:number_range",
+            "initial": 1,
+            "start": 1,
+            "end": 16,
+            "step": 1,
+            "key": "roll",
+            "label": {
+                "text": "次数"
+            }
+        },
+        {
+            "type": "minecraft:number_range",
+            "initial": 20,
+            "start": 2,
+            "end": 100,
+            "step": 1,
+            "key": "max",
+            "label": {
+                "text": "面数"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "text": "投掷"
+            },
+            "action": {
+                "type": "dynamic/run_command",
+                "template": "function expension:dice/roll_main {\"roll\":$(roll),\"max\":$(max)}"
+            }
+        }
+    ]
+}

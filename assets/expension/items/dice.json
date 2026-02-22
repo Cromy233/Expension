@@ -1,6 +1,6 @@
 {
     "model": {
       "type": "minecraft:model",
-      "model": "expension:item/dice_8"
+      "model": "expension:item/dice"
     }
   }

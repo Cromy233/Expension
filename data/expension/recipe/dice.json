@@ -1,16 +1,16 @@
 {
     "type": "stonecutting",
-    "ingredient": "resin_brick",
+    "ingredient": "minecraft:recovery_compass",
     "result": {
-        "id": "minecraft:resin_brick",
+        "id": "minecraft:recovery_compass",
         "components": {
             "custom_data": {
               "custom_item": true,
-              "id": "expension:dice_8"
+              "id": "expension:dice"
             },
-            "item_model": "expension:dice_8",
+            "item_model": "expension:dice",
             "item_name": {
-              "translate": "item.expension.dice_8"
+              "translate": "item.expension.dice"
             },
             "max_stack_size": 1,
             "consumable": {

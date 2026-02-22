@@ -11,11 +11,11 @@
                 "components": {
                   "custom_data": {
                     "custom_item": true,
-                    "id": "expension:dice_20"
+                    "id": "expension:dice"
                   },
-                  "item_model": "expension:dice_20",
+                  "item_model": "expension:dice",
                   "item_name": {
-                    "translate": "item.expension.dice_20"
+                    "translate": "item.expension.dice"
                   },
                   "max_stack_size": 1,
                   "consumable": {

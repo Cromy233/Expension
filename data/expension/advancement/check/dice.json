@@ -1,12 +1,12 @@
 {
     "criteria": {
-        "expension:dice/6": {
+        "expension:dice": {
             "trigger": "consume_item",
             "conditions": {
                 "item": {
                     "predicates": {
                         "custom_data": {
-                            "id": "expension:dice_6"
+                            "id": "expension:dice"
                         }
                     }
                 }
@@ -14,6 +14,6 @@
         }
     },
     "rewards": {
-        "function": "expension:dice_roll/6"
+        "function": "expension:dice/use"
     }
 }
