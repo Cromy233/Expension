@@ -1,0 +1,56 @@
+{
+    "anvil_cost": 0,
+    "description": {
+      "translate": "enchantment.expension.thruster"
+    },
+    "effects": {
+        "minecraft:tick": [
+            {
+              "effect": {
+                "type": "apply_impulse",
+                "coordinate_scale": [1,1,1],
+                "direction": [0,0.1,1],
+                "magnitude": 2
+              },
+              "requirements": {
+                "condition": "entity_scores",
+                "entity": "this",
+                "scores": {
+                  "expension_use_thruster": {
+                    "min": 10
+                  }
+                }
+              }
+            },
+            {
+              "effect": {
+                "type": "run_function",
+                "function": "expension:thruster/effect"
+              },
+              "requirements": {
+                "condition": "entity_scores",
+                "entity": "this",
+                "scores": {
+                  "expension_use_thruster": {
+                    "min": 1
+                  }
+                }
+              }
+            }
+        ]  
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "hand"
+    ],
+    "supported_items": "air",
+    "weight": 1
+}

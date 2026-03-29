@@ -42,28 +42,26 @@
                   "minecraft:attribute_modifiers": [
                     {
                       "id": "expension:inferno_whip",
-                      "amount": 9,
+                      "amount": 6,
                       "operation": "add_value",
                       "type": "minecraft:attack_damage",
                       "slot": "mainhand"
                     },
                     {
                       "id": "expension:inferno_whip",
-                      "amount": -3,
+                      "amount": -3.1,
                       "operation": "add_value",
                       "type": "minecraft:attack_speed",
-                      "slot": "mainhand"
-                    },
-                    {
-                      "id": "expension:inferno_whip",
-                      "amount": 1,
-                      "operation": "add_value",
-                      "type": "minecraft:entity_interaction_range",
                       "slot": "mainhand"
                     }
                   ],
                   "weapon": {
                     "item_damage_per_attack": 2
+                  },
+                  "attack_range": {
+                    "min_reach": 0,
+                    "max_reach": 3.5,
+                    "hitbox_margin": 0.5
                   },
                   "rarity": "epic"
                 }

@@ -1,12 +1,12 @@
 {
     "criteria": {
-        "expension:dice": {
+        "expension:thruster_use": {
             "trigger": "consume_item",
             "conditions": {
                 "item": {
                     "predicates": {
                         "custom_data": {
-                            "id": "expension:dice"
+                            "id": "expension:thruster"
                         }
                     }
                 }
@@ -14,6 +14,6 @@
         }
     },
     "rewards": {
-        "function": "expension:dice/use"
+        "function": "expension:thruster/use"
     }
 }

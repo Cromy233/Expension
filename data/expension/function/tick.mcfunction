@@ -15,7 +15,7 @@ execute at @a[scores={expension_thunder_dagger_cooldown=..0},nbt={equipment:{off
 
 
 # Frost Bow
-execute as @e[limit=1,type=#minecraft:arrows,nbt={weapon:{components:{"minecraft:custom_data":{id:"expension:frost_bow"}}}},tag=!frost_bow_arrow_fallin,tag=!frost_bow_arrow] at @s run function expension:frost_bow/arrow with entity @s
+execute as @e[type=#minecraft:arrows,nbt={weapon:{components:{"minecraft:custom_data":{id:"expension:frost_bow"}}}},tag=!frost_bow_arrow_fallin,tag=!frost_bow_arrow] at @s run function expension:frost_bow/arrow
 # 这个limit=1是为了防止多重射击不生效, 鉴于原版弓不能附魔多重射击, 其实没必要这么搞 (((
 # 25.9.6 : 不知道怎么回事直接提交上去了, 呃呃反正这个也能运行, 就这样吧 (((
 # https://github.com/Cromy233/Expension/commit/3b36c5667d50a8443e1070b9bcdbd12d1cd2efcb
@@ -25,6 +25,14 @@ execute at @e[tag=frost_bow_arrow,tag=!frost_bow_arrow_fallin] run particle snow
 
 # Wind Blade
 scoreboard players remove @a[scores={expension_wind_blade_cooldown=1..}] expension_wind_blade_cooldown 1
+
+# Thruster
+# execute as @e[tag=test_player_motion_driver_recorded,scores={test_player_motion_list=..0}] at @s on passengers run tp @s ~ ~ ~
+# kill @e[tag=test_player_motion_driver_recorded,scores={test_player_motion_list=..0}]
+# scoreboard players remove @e[tag=test_player_motion_driver_recorded] test_player_motion_list 1
+scoreboard players remove @a[scores={expension_use_thruster=1..}] expension_use_thruster 1
+execute as @a[scores={expension_use_thruster=0}] run attribute @s gravity modifier remove expension:thruster
+execute as @a[scores={expension_use_thruster=0}] run attribute @s fall_damage_multiplier modifier remove expension:thruster
 
 # End Laboratory Trap
 execute as @e[type=interaction,tag=end_laboratory_trap,nbt={interaction:{}}] at @s run function expension:end_laboratory_trap
