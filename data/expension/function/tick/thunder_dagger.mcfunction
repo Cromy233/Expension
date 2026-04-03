@@ -1,0 +1,3 @@
+scoreboard players remove @a[scores={expension_thunder_dagger_cooldown=1..}] expension_thunder_dagger_cooldown 1
+execute at @a[scores={expension_thunder_dagger_cooldown=..0},nbt={SelectedItem:{components:{"minecraft:custom_data":{id:"expension:thunder_dagger"}}}}] run particle minecraft:electric_spark ~ ~0.1 ~ 0.2 0 0.2 0.1 1
+execute at @a[scores={expension_thunder_dagger_cooldown=..0},nbt={equipment:{offhand:{components:{"minecraft:custom_data":{id:"expension:thunder_dagger"}}}}}] run particle minecraft:electric_spark ~ ~0.1 ~ 0.2 0 0.2 0.1 1

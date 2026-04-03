@@ -29,26 +29,32 @@
                     },
                     {
                       "translate": "item.expension.wind_blade.description_3"
+                    },
+                    {
+                      "translate": "item.expension.wind_blade.description_4"
                     }
                   ],
                   "max_damage": 1561,
                   "enchantable": {
                     "value": 15
                   },
+                  "use_effects": {
+                    "can_sprint": false,
+                    "speed_multiplier": 0.5
+                  },
                   "blocks_attacks": {
-                    "block_sound": "entity.breeze.hurt",
+                    "disable_cooldown_scale": 0,
                     "damage_reductions": [
                       {
-                        "base": 1,
-                        "factor": 0.5,
+                        "base": 0,
+                        "factor": 0.25,
                         "horizontal_blocking_angle": 180,
-                        "type": "fall"
+                        "type": "arrow"
                       }
                     ],
-                    "disable_cooldown_scale": 1,
                     "item_damage": {
-                      "base": 3,
-                      "factor": 0.5,
+                      "base": 0,
+                      "factor": 0.25,
                       "threshold": 1
                     }
                   },
@@ -68,10 +74,10 @@
                       "slot": "mainhand"
                     },
                     {
-                      "amount": 0.1,
+                      "amount": -0.5,
                       "id": "expension:wind_blade",
                       "operation": "add_multiplied_base",
-                      "type": "movement_speed",
+                      "type": "fall_damage_multiplier",
                       "slot": "hand"
                     }
                   ],

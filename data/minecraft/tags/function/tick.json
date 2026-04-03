@@ -1,5 +1,13 @@
 {
     "values": [
-        "expension:tick"
+        "expension:tick/lava_fishing",
+        "expension:tick/portal",
+        "expension:tick/thunder_dagger",
+        "expension:tick/frost_bow",
+        "expension:tick/thruster",
+        "expension:tick/end_laboratory",
+        "expension:tick/wind_blade",
+        "expension:tick/items",
+        "expension:tick/death"
     ]
 }

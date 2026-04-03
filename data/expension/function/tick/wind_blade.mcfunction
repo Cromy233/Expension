@@ -1,0 +1,1 @@
+scoreboard players remove @a[scores={expension_wind_blade_cooldown=1..}] expension_wind_blade_cooldown 1

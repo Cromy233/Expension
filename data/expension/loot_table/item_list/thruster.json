@@ -30,7 +30,7 @@
                     "sound": "entity.wind_charge.wind_burst"
                   },
                   "enchantments": {
-                    "expension:thruster": 1
+                    "expension:thruster": 15
                   },
                   "tooltip_display": {
                     "hidden_components": [

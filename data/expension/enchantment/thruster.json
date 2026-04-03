@@ -10,13 +10,17 @@
                 "type": "apply_impulse",
                 "coordinate_scale": [1,1,1],
                 "direction": [0,0.1,1],
-                "magnitude": 2
+                "magnitude": {
+                  "type": "linear",
+                  "base": 0.1,
+                  "per_level_above_first": 0.1
+                }
               },
               "requirements": {
                 "condition": "entity_scores",
                 "entity": "this",
                 "scores": {
-                  "expension_use_thruster": {
+                  "expension_thruster": {
                     "min": 10
                   }
                 }
@@ -31,7 +35,7 @@
                 "condition": "entity_scores",
                 "entity": "this",
                 "scores": {
-                  "expension_use_thruster": {
+                  "expension_thruster": {
                     "min": 1
                   }
                 }

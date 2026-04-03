@@ -22,7 +22,7 @@
                     "animation": "bow",
                     "consume_seconds": 1,
                     "has_consume_particles": false,
-                    "sound": "block.amethyst_block.chime"
+                    "sound": "intentionally_empty"
                   },
                   "use_cooldown": {
                     "seconds": 5,

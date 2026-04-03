@@ -1,1 +1,0 @@
-execute as @a run attribute @s gravity modifier remove expension:wind_blade

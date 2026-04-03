@@ -5,9 +5,11 @@
             "conditions": {
                 "item": {
                     "predicates": {
-                        "custom_data": {
-                            "id": "expension:thruster"
-                        }
+                        "enchantments": [
+                            {
+                                "enchantments": "expension:thruster"
+                            }
+                        ]
                     }
                 }
             }
