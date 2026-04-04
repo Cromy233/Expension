@@ -2,12 +2,14 @@
     "values": [
         "expension:tick/lava_fishing",
         "expension:tick/portal",
-        "expension:tick/thunder_dagger",
+        "expension:tick/thunder_dagger_legacy",
         "expension:tick/frost_bow",
+        "expension:tick/frost_bow_legacy",
         "expension:tick/thruster",
         "expension:tick/end_laboratory",
         "expension:tick/wind_blade",
         "expension:tick/items",
-        "expension:tick/death"
+        "expension:tick/death",
+        "expension:tick/impulse_crossbow"
     ]
 }

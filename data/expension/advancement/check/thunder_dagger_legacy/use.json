@@ -1,12 +1,12 @@
 {
     "criteria": {
-        "expension:thunder_dagger/use": {
+        "expension:thunder_dagger_legacy/use": {
             "trigger": "using_item",
             "conditions": {
                 "item": {
                     "predicates": {
                         "custom_data": {
-                            "id": "expension:thunder_dagger"
+                            "id": "expension:thunder_dagger_legacy"
                         }
                     }
                 }
@@ -14,6 +14,6 @@
         }
     },
     "rewards": {
-        "function": "expension:thunder_dagger/use"
+        "function": "expension:thunder_dagger_legacy/use"
     }
 }

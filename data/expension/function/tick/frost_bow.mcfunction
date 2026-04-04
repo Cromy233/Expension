@@ -1,7 +1,21 @@
-execute as @e[type=#minecraft:arrows,nbt={weapon:{components:{"minecraft:custom_data":{id:"expension:frost_bow"}}}},tag=!frost_bow_arrow_fallin,tag=!frost_bow_arrow] at @s run function expension:frost_bow/arrow
-# 这个limit=1是为了防止多重射击不生效, 鉴于原版弓不能附魔多重射击, 其实没必要这么搞 (((
-# 25.9.6 : 不知道怎么回事直接提交上去了, 呃呃反正这个也能运行, 就这样吧 (((
-# https://github.com/Cromy233/Expension/commit/3b36c5667d50a8443e1070b9bcdbd12d1cd2efcb
-execute as @e[tag=frost_bow_marker] at @s run function expension:frost_bow/marker
+### 清除拉弓效果
+execute as @e[advancements={expension:check/frost_bow/charge=false}] run attribute @s armor modifier remove expension:frost_bow
+execute as @e[advancements={expension:check/frost_bow/charge=false}] run attribute @s knockback_resistance modifier remove expension:frost_bow
 
-execute at @e[tag=frost_bow_arrow,tag=!frost_bow_arrow_fallin] run particle snowflake ~ ~ ~ 0 0 0 0 1 normal
+### 冰冻箭初始化
+execute as @e[type=#minecraft:arrows,nbt={weapon:{components:{"minecraft:custom_data":{id:"expension:frost_bow"}}}},tag=!expension_frost_bow_arrow_affected] if data entity @s {crit:1b} run function expension:frost_bow/crit
+### Frost Arrow Particle
+execute at @e[scores={expension_frost_bow_arrow=1..}] run particle snowflake ~ ~ ~ 0 0 0 0 1 normal
+### Frost Arrow Life
+execute as @e[scores={expension_frost_bow_arrow=..0}] run data modify entity @s NoGravity set value 0b
+scoreboard players remove @e[scores={expension_frost_bow_arrow=1..}] expension_frost_bow_arrow 1
+### Frost Arrow Freeze
+execute as @e[scores={expension_frost_bow_arrow=1..},nbt={inGround:1b}] at @s run function expension:frost_bow/freeze
+
+### 冰冻效果
+execute at @e[scores={expension_frost_bow_frosted=1..}] run particle block_crumble{block_state:{Name:"minecraft:ice"}} ~ ~0.5 ~ 0.3 0.3 0.3 0 1 normal
+execute as @e[scores={expension_frost_bow_frosted=1..}] run attribute @s movement_speed modifier add expension:frost_bow_frosted -0.5 add_multiplied_total
+execute as @e[scores={expension_frost_bow_frosted=1..}] run attribute @s jump_strength modifier add expension:frost_bow_frosted -1 add_multiplied_total
+execute as @e[scores={expension_frost_bow_frosted=..0}] run attribute @s movement_speed modifier remove expension:frost_bow_frosted
+execute as @e[scores={expension_frost_bow_frosted=..0}] run attribute @s jump_strength modifier remove expension:frost_bow_frosted
+scoreboard players remove @e[scores={expension_frost_bow_frosted=1..}] expension_frost_bow_frosted 1

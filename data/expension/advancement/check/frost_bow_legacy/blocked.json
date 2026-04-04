@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "expension:frost_bow_legacy/blocked": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true,
+                    "type": {
+                        "direct_entity": {
+                            "nbt": "{Tags:[\"expension_frost_bow_legacy_arrow\"]}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:frost_bow_legacy/blocked"
+    }
+}

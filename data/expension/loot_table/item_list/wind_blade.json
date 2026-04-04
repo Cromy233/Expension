@@ -43,7 +43,7 @@
                     "speed_multiplier": 0.5
                   },
                   "blocks_attacks": {
-                    "disable_cooldown_scale": 0,
+                    "disable_cooldown_scale": 0.2,
                     "damage_reductions": [
                       {
                         "base": 0,

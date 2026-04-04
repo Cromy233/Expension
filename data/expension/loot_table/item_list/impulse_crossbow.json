@@ -1,0 +1,29 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "crossbow",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "custom_item": true,
+                    "id": "expension:impulse_crossbow"
+                  },
+                  "item_model": "expension:impulse_crossbow",
+                  "item_name": {
+                    "translate": "item.expension.impulse_crossbow"
+                  },
+                  "rarity": "epic"
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  }

@@ -1,12 +1,12 @@
 {
     "criteria": {
-        "expension:frost_bow/use": {
+        "expension:frost_bow_legacy/use": {
             "trigger": "using_item",
             "conditions": {
                 "item": {
                     "predicates": {
                         "custom_data": {
-                            "id": "expension:frost_bow"
+                            "id": "expension:frost_bow_legacy"
                         }
                     }
                 }
@@ -14,6 +14,6 @@
         }
     },
     "rewards": {
-        "function": "expension:frost_bow/use"
+        "function": "expension:frost_bow_legacy/use"
     }
 }

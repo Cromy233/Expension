@@ -85,6 +85,10 @@
         "minecraft:zombie_villager",
         "minecraft:zombified_piglin",
         "minecraft:happy_ghast",
-        "minecraft:copper_golem"
+        "minecraft:copper_golem",
+        "minecraft:camel_husk",
+        "minecraft:nautilus",
+        "minecraft:zombie_nautilus",
+        "minecraft:parched"
     ]
 }

@@ -1,0 +1,2 @@
+kill @n[tag=expension_impulse_crossbow_conductor_selected]
+kill

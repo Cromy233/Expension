@@ -1,13 +1,12 @@
 {
     "criteria": {
-        "expension:frost_bow/blocked": {
+        "expension:frost_bow/hit": {
             "trigger": "entity_hurt_player",
             "conditions": {
                 "damage": {
-                    "blocked": true,
                     "type": {
                         "direct_entity": {
-                            "nbt": "{Tags:[\"frost_bow_arrow\"]}"
+                            "nbt": "{weapon:{components:{\"minecraft:custom_data\":{id:\"expension:frost_bow\"}}},data:{frost:1b}}"
                         }
                     }
                 }
@@ -15,6 +14,6 @@
         }
     },
     "rewards": {
-        "function": "expension:frost_bow/blocked"
+        "function": "expension:frost_bow/hit"
     }
 }

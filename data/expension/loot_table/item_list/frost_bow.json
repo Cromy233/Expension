@@ -20,25 +20,19 @@
                   "enchantable": {
                     "value": 15
                   },
-                  "tool": {
-                    "rules": [
+                  "blocks_attacks": {
+                    "block_sound": "block.fire.extinguish",
+                    "disable_cooldown_scale": 0,
+                    "damage_reductions": [
                       {
-                        "blocks": "#minecraft:ice",
-                        "correct_for_drops": false,
-                        "speed": 5
+                        "base": 0,
+                        "factor": 0.5,
+                        "horizontal_blocking_angle": 180,
+                        "type": "#is_fire"
                       }
-                    ],
-                    "damage_per_block": 0
+                    ]
+
                   },
-                  "attribute_modifiers": [
-                    {
-                      "amount": -0.3,
-                      "id": "expension:frost_bow",
-                      "operation": "add_multiplied_base",
-                      "type": "burning_time",
-                      "slot": "hand"
-                    }
-                  ],
                   "rarity": "epic"
                 }
               }

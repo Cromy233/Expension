@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow",
+  "textures": {
+    "layer0": "expension:item/impulse_crossbow_arrow"
+  }
+}

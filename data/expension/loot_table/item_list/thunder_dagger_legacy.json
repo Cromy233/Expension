@@ -11,7 +11,7 @@
                 "components": {
                   "custom_data": {
                     "custom_item": true,
-                    "id": "expension:thunder_dagger"
+                    "id": "expension:thunder_dagger_legacy"
                   },
                   "item_model": "expension:thunder_dagger",
                   "item_name": {
@@ -22,13 +22,13 @@
                       "text": ""
                     },
                     {
-                      "translate": "item.expension.thunder_dagger.description_1"
+                      "translate": "item.expension.thunder_dagger_legacy.description_1"
                     },
                     {
-                      "translate": "item.expension.thunder_dagger.description_2"
+                      "translate": "item.expension.thunder_dagger_legacy.description_2"
                     },
                     {
-                      "translate": "item.expension.thunder_dagger.description_3"
+                      "translate": "item.expension.thunder_dagger_legacy.description_3"
                     }
                   ],
                   "tooltip_display": {
@@ -40,14 +40,14 @@
                   "attribute_modifiers": [
                     {
                       "amount": 4,
-                      "id": "expension:thunder_dagger",
+                      "id": "expension:thunder_dagger_legacy",
                       "operation": "add_value",
                       "type": "attack_damage",
                       "slot": "mainhand"
                     },
                     {
                       "amount": -3,
-                      "id": "expension:thunder_dagger",
+                      "id": "expension:thunder_dagger_legacy",
                       "operation": "add_value",
                       "type": "attack_speed",
                       "slot": "mainhand"

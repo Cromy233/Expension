@@ -1,17 +1,19 @@
 {
     "criteria": {
-        "expension:thunder_dagger/kill": {
-            "trigger": "player_killed_entity",
+        "expension:thunder_dagger_legacy/attack": {
+            "trigger": "player_hurt_entity",
             "conditions": {
-                "killing_blow": {
-                    "is_direct": true
+                "damage": {
+                    "type": {
+                        "is_direct": true
+                    }
                 },
                 "player": {
                     "equipment": {
                         "mainhand": {
                             "predicates": {
                                 "custom_data": {
-                                    "id": "expension:thunder_dagger"
+                                    "id": "expension:thunder_dagger_legacy"
                                 }
                             }
                         }
@@ -21,6 +23,6 @@
         }
     },
     "rewards": {
-        "function": "expension:thunder_dagger/kill"
+        "function": "expension:thunder_dagger_legacy/attack"
     }
 }

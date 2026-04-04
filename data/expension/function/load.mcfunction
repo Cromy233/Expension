@@ -1,7 +1,10 @@
-scoreboard objectives add expension_thunder_dagger_cooldown dummy
-scoreboard objectives add expension_frost_bow_marker dummy
+scoreboard objectives add expension_thunder_dagger_legacy_cooldown dummy
+scoreboard objectives add expension_frost_bow_legacy_marker dummy
+scoreboard objectives add expension_frost_bow_frosted dummy
+scoreboard objectives add expension_frost_bow_arrow dummy
 scoreboard objectives add expension_wind_blade_cooldown dummy
 scoreboard objectives add expension_thruster dummy
+scoreboard objectives add expension_impulse_crossbow_marker dummy
 
 scoreboard objectives add expension_dice dummy
 scoreboard objectives add expension_death deathCount

@@ -1,4 +1,4 @@
-summon minecraft:item_display ~ ~1 ~ {item:{"id":"ender_eye"},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f],translation:[0f,0f,0f]},Tags:["portal"]}
+summon minecraft:item_display ~ ~1 ~ {item:{"id":"ender_eye"},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f],translation:[0f,0f,0f]},Tags:["expension_portal"]}
 forceload add ~ ~ ~ ~
 
 playsound minecraft:block.respawn_anchor.charge player @a ~ ~ ~

@@ -13,10 +13,10 @@ execute at @e[type=#expension:mobs,tag=!expension_wind_blade_excluded,limit=3,di
 execute at @e[type=#expension:mobs,tag=!expension_wind_blade_excluded,limit=3,distance=..4,sort=nearest] run particle sweep_attack ~ ~1.75 ~ 0.2 0.5 0.2 0 1 normal
 
 ### 伤害 效果
-execute unless predicate expension:holding/wind_blade/sweeping_edge_lv1 unless predicate expension:holding/wind_blade/sweeping_edge_lv2 unless predicate expension:holding/wind_blade/sweeping_edge_lv3 as @e[type=#expension:mobs,tag=!expension_wind_blade_excluded,limit=5,distance=..4,sort=nearest] run damage @s 5 player_attack by @p[advancements={expension:check/wind_blade_use=true}]
-execute if predicate expension:holding/wind_blade/sweeping_edge_lv1 as @e[type=#expension:mobs,tag=!expension_wind_blade_excluded,limit=6,distance=..4,sort=nearest] run damage @s 6 player_attack by @p[advancements={expension:check/wind_blade_use=true}]
-execute if predicate expension:holding/wind_blade/sweeping_edge_lv2 as @e[type=#expension:mobs,tag=!expension_wind_blade_excluded,limit=7,distance=..4,sort=nearest] run damage @s 7 player_attack by @p[advancements={expension:check/wind_blade_use=true}]
-execute if predicate expension:holding/wind_blade/sweeping_edge_lv3 as @e[type=#expension:mobs,tag=!expension_wind_blade_excluded,limit=8,distance=..4,sort=nearest] run damage @s 8 player_attack by @p[advancements={expension:check/wind_blade_use=true}]
+execute unless predicate expension:holding/wind_blade/sweeping_edge_lv1 unless predicate expension:holding/wind_blade/sweeping_edge_lv2 unless predicate expension:holding/wind_blade/sweeping_edge_lv3 as @e[type=#expension:mobs,tag=!expension_wind_blade_excluded,limit=5,distance=..4,sort=nearest] run damage @s 5 player_attack by @n[advancements={expension:check/wind_blade_use=true}]
+execute if predicate expension:holding/wind_blade/sweeping_edge_lv1 as @e[type=#expension:mobs,tag=!expension_wind_blade_excluded,limit=6,distance=..4,sort=nearest] run damage @s 6 player_attack by @n[advancements={expension:check/wind_blade_use=true}]
+execute if predicate expension:holding/wind_blade/sweeping_edge_lv2 as @e[type=#expension:mobs,tag=!expension_wind_blade_excluded,limit=7,distance=..4,sort=nearest] run damage @s 7 player_attack by @n[advancements={expension:check/wind_blade_use=true}]
+execute if predicate expension:holding/wind_blade/sweeping_edge_lv3 as @e[type=#expension:mobs,tag=!expension_wind_blade_excluded,limit=8,distance=..4,sort=nearest] run damage @s 8 player_attack by @n[advancements={expension:check/wind_blade_use=true}]
 
 execute if predicate expension:holding/wind_blade/fire_aspect_lv1 as @e[type=#expension:mobs,tag=!expension_wind_blade_excluded,distance=..4,nbt={HurtTime:10s}] run data modify entity @s Fire set value 40
 execute if predicate expension:holding/wind_blade/fire_aspect_lv2 as @e[type=#expension:mobs,tag=!expension_wind_blade_excluded,distance=..4,nbt={HurtTime:10s}] run data modify entity @s Fire set value 80

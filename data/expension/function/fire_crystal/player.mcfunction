@@ -17,7 +17,7 @@ particle flame ~ ~1 ~ 0.2 0.2 0.2 0.05 10
 playsound block.amethyst_block.break player @a ~ ~ ~ 1 1
 playsound block.spawner.break player @a ~ ~ ~ 1 1
 
-execute as @a[distance=..50] run damage @s 0.01 in_fire by @p[advancements={expension:check/fire_crystal/player=true}]
+execute as @a[distance=..50] run damage @s 0.01 in_fire by @n[advancements={expension:check/fire_crystal/player=true}]
 execute as @a[distance=..50,gamemode=!creative,gamemode=!spectator] run attribute @s max_health modifier add expension:fire_crystal -0.5 add_multiplied_total
 
 advancement revoke @s only expension:check/fire_crystal/player
