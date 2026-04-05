@@ -55,5 +55,10 @@
     "item.expension.terra_greataxe.description_2": "§2 9 Attack Damage",
     "item.expension.terra_greataxe.description_3": "§2 0.9 Attack Speed",
     "item.expension.frost_bow": "Frost Bow",
-    "item.expension.impulse_crossbow": "Impulse Crossbow"
+    "item.expension.impulse_crossbow": "Impulse Crossbow",
+    "item.expension.wind_wrath": "Wind Wrath",
+    "item.expension.wind_wrath.description_1": "§7When in Main Hand:",
+    "item.expension.wind_wrath.description_2": "§2 8 Attack Damage",
+    "item.expension.wind_wrath.description_3": "§2 1.7 Attack Speed",
+    "item.expension.wind_wrath.description_4": "§9 -50% Fall Damage"
 }

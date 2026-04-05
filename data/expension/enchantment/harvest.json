@@ -8,7 +8,7 @@
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "expension:harvest"
+                    "function": "expension:enchantment/harvest"
                 },
                 "requirements": [
                   {

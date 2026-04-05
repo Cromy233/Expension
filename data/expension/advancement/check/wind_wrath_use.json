@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "expension:wind_wrath/use": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "id": "expension:wind_wrath"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:wind_wrath/use"
+    }
+}

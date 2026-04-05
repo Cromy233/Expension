@@ -27,7 +27,7 @@
                     "animation": "spear",
                     "consume_seconds": 0,
                     "has_consume_particles": false,
-                    "sound": "entity.wind_charge.wind_burst"
+                    "sound": "intentionally_empty"
                   },
                   "enchantments": {
                     "expension:thruster": 15

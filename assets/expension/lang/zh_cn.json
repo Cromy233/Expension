@@ -55,5 +55,10 @@
     "item.expension.terra_greataxe.description_2": "§2 9 攻击伤害",
     "item.expension.terra_greataxe.description_3": "§2 0.9 攻击速度",
     "item.expension.frost_bow": "冰霜弓",
-    "item.expension.impulse_crossbow": "电弩"
+    "item.expension.impulse_crossbow": "电弩",
+    "item.expension.wind_wrath": "狂风之怒",
+    "item.expension.wind_wrath.description_1": "§7在主手时:",
+    "item.expension.wind_wrath.description_2": "§2 8 攻击伤害",
+    "item.expension.wind_wrath.description_3": "§2 1.7 攻击速度",
+    "item.expension.wind_wrath.description_4": "§9 -50% 摔落伤害"
 }

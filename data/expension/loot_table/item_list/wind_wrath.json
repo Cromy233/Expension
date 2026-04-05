@@ -11,46 +11,45 @@
                 "components": {
                   "custom_data": {
                     "custom_item": true,
-                    "id": "expension:wind_blade"
+                    "id": "expension:wind_wrath"
                   },
-                  "item_model": "expension:wind_blade",
+                  "item_model": "expension:wind_wrath",
                   "item_name": {
-                    "translate": "item.expension.wind_blade"
+                    "translate": "item.expension.wind_wrath"
                   },
                   "lore": [
                     {
                       "text": ""
                     },
                     {
-                      "translate": "item.expension.wind_blade.description_1"
+                      "translate": "item.expension.wind_wrath.description_1"
                     },
                     {
-                      "translate": "item.expension.wind_blade.description_2"
+                      "translate": "item.expension.wind_wrath.description_2"
                     },
                     {
-                      "translate": "item.expension.wind_blade.description_3"
+                      "translate": "item.expension.wind_wrath.description_3"
                     },
                     {
-                      "translate": "item.expension.wind_blade.description_4"
+                      "translate": "item.expension.wind_wrath.description_4"
                     }
                   ],
-                  "max_damage": 1561,
+                  "max_damage": 2031,
                   "enchantable": {
                     "value": 15
                   },
                   "use_effects": {
-                    "can_sprint": false,
-                    "speed_multiplier": 0.5
+                    "can_sprint": true,
+                    "speed_multiplier": 1
                   },
                   "blocks_attacks": {
-                    "disable_cooldown_scale": 0.2,
+                    "disable_cooldown_scale": 1,
                     "block_sound": "entity.breeze.hurt",
                     "damage_reductions": [
                       {
                         "base": 0,
-                        "factor": 0.25,
-                        "horizontal_blocking_angle": 180,
-                        "type": "arrow"
+                        "factor": 0.5,
+                        "horizontal_blocking_angle": 90
                       }
                     ],
                     "item_damage": {
@@ -61,22 +60,22 @@
                   },
                   "attribute_modifiers": [
                     {
-                      "amount": 6,
-                      "id": "expension:wind_blade",
+                      "amount": 7,
+                      "id": "expension:wind_wrath",
                       "operation": "add_value",
                       "type": "attack_damage",
                       "slot": "mainhand"
                     },
                     {
                       "amount": -2.3,
-                      "id": "expension:wind_blade",
+                      "id": "expension:wind_wrath",
                       "operation": "add_value",
                       "type": "attack_speed",
                       "slot": "mainhand"
                     },
                     {
                       "amount": -0.5,
-                      "id": "expension:wind_blade",
+                      "id": "expension:wind_wrath",
                       "operation": "add_multiplied_base",
                       "type": "fall_damage_multiplier",
                       "slot": "hand"
