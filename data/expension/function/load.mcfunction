@@ -6,6 +6,8 @@ scoreboard objectives add expension_wind_blade_cooldown dummy
 scoreboard objectives add expension_wind_wrath dummy
 scoreboard objectives add expension_thruster dummy
 scoreboard objectives add expension_impulse_crossbow_marker dummy
+scoreboard objectives add expension_protean_edge_type dummy
+scoreboard objectives add expension_protean_edge_cooldown dummy
 
 scoreboard objectives add expension_dice dummy
 scoreboard objectives add expension_death deathCount

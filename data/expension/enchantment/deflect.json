@@ -17,7 +17,7 @@
     "slots": [
       "hand"
     ],
-    "exclusive_set": "#exclusive_set/shield",
+    "exclusive_set": "#expension:exclusive_set/deflect",
     "supported_items": "minecraft:shield",
     "weight": 1
 }

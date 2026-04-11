@@ -17,23 +17,6 @@
                   "item_name": {
                     "translate": "item.expension.wind_blade"
                   },
-                  "lore": [
-                    {
-                      "text": ""
-                    },
-                    {
-                      "translate": "item.expension.wind_blade.description_1"
-                    },
-                    {
-                      "translate": "item.expension.wind_blade.description_2"
-                    },
-                    {
-                      "translate": "item.expension.wind_blade.description_3"
-                    },
-                    {
-                      "translate": "item.expension.wind_blade.description_4"
-                    }
-                  ],
                   "max_damage": 1561,
                   "enchantable": {
                     "value": 15
@@ -65,28 +48,41 @@
                       "id": "expension:wind_blade",
                       "operation": "add_value",
                       "type": "attack_damage",
-                      "slot": "mainhand"
+                      "slot": "mainhand",
+                      "display": {
+                        "type": "override",
+                        "value": {
+                          "translate": "item.expension.wind_blade.description_1"
+                        }
+                      }
                     },
                     {
                       "amount": -2.3,
                       "id": "expension:wind_blade",
                       "operation": "add_value",
                       "type": "attack_speed",
-                      "slot": "mainhand"
+                      "slot": "mainhand",
+                      "display": {
+                        "type": "override",
+                        "value": {
+                          "translate": "item.expension.wind_blade.description_2"
+                        }
+                      }
                     },
                     {
                       "amount": -0.5,
                       "id": "expension:wind_blade",
                       "operation": "add_multiplied_base",
                       "type": "fall_damage_multiplier",
-                      "slot": "hand"
+                      "slot": "hand",
+                      "display": {
+                        "type": "override",
+                        "value": {
+                          "translate": "item.expension.wind_blade.description_3"
+                        }
+                      }
                     }
                   ],
-                  "tooltip_display": {
-                    "hidden_components": [
-                      "attribute_modifiers"
-                    ]
-                  },
                   "rarity": "epic"
                 }
               }

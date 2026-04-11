@@ -534,13 +534,7 @@
               {
                 "function": "enchant_randomly",
                 "only_compatible": true,
-                "options": [
-                  "unbreaking",
-                  "expension:parry",
-                  "mending",
-                  "expension:tremor",
-                  "expension:deflect"
-                ]
+                "options": "#expension:shield"
               },
               {
                 "function": "enchant_randomly",

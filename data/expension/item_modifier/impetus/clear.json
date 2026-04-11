@@ -1,0 +1,12 @@
+{
+    "function": "set_components",
+    "components": {
+        "use_effects": {
+            "can_sprint": false,
+            "speed_multiplier": 0.3
+        },
+        "custom_data": {
+            "impetus": false
+        }
+    }
+}

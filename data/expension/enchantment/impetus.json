@@ -1,0 +1,23 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "translate": "enchantment.expension.impetus"
+    },
+    "effects": {
+    },
+    "max_cost": {
+      "base": 57,
+      "per_level_above_first": 24
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 36,
+      "per_level_above_first": 20
+    },
+    "slots": [
+      "hand"
+    ],
+    "supported_items": "minecraft:shield",
+    "exclusive_set": "#expension:exclusive_set/impetus",
+    "weight": 1
+}

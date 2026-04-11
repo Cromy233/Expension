@@ -17,42 +17,32 @@
                   "item_name": {
                     "translate": "item.expension.inferno_whip"
                   },
-                  "lore": [
-                    {
-                      "text": ""
-                    },
-                    {
-                      "translate": "item.expension.inferno_whip.description_1"
-                    },
-                    {
-                      "translate": "item.expension.inferno_whip.description_2"
-                    },
-                    {
-                      "translate": "item.expension.inferno_whip.description_3"
-                    },
-                    {
-                      "translate": "item.expension.inferno_whip.description_4"
-                    }
-                  ],
-                  "tooltip_display": {
-                    "hidden_components": [
-                      "attribute_modifiers"
-                    ]
-                  },
                   "minecraft:attribute_modifiers": [
                     {
                       "id": "expension:inferno_whip",
                       "amount": 6,
                       "operation": "add_value",
                       "type": "minecraft:attack_damage",
-                      "slot": "mainhand"
+                      "slot": "mainhand",
+                      "display": {
+                        "type": "override",
+                        "value": {
+                          "translate": "item.expension.inferno_whip.description_1"
+                        }
+                      }
                     },
                     {
                       "id": "expension:inferno_whip",
                       "amount": -3.1,
                       "operation": "add_value",
                       "type": "minecraft:attack_speed",
-                      "slot": "mainhand"
+                      "slot": "mainhand",
+                      "display": {
+                        "type": "override",
+                        "value": {
+                          "translate": "item.expension.inferno_whip.description_2"
+                        }
+                      }
                     }
                   ],
                   "weapon": {

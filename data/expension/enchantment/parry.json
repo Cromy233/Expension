@@ -18,5 +18,6 @@
       "hand"
     ],
     "supported_items": "minecraft:shield",
+    "exclusive_set": "#expension:exclusive_set/parry",
     "weight": 1
 }

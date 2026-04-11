@@ -70,12 +70,7 @@
             },
             {
               "function": "enchant_randomly",
-              "options": [
-                "unbreaking",
-                "expension:parry",
-                "mending",
-                "expension:deflect"
-              ]
+              "options": "#expension:shield"
             }
           ],
           "name": "minecraft:shield",

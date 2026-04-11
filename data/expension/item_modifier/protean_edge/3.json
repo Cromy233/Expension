@@ -1,0 +1,59 @@
+{
+    "function": "set_components",
+    "components": {
+        "custom_data": {
+            "custom_item": true,
+            "id": "expension:protean_edge",
+            "type": 3
+        },
+        "item_model": "expension:protean_edge/3",
+        "item_name": [
+            {
+                "translate": "item.expension.protean_edge"
+            },
+            {
+                "translate": "item.expension.protean_edge.3"
+            }
+        ],
+        "attribute_modifiers": [
+            {
+                "amount": 11,
+                "id": "expension:protean_edge",
+                "operation": "add_value",
+                "type": "attack_damage",
+                "slot": "mainhand",
+                "display": {
+                    "type": "override",
+                    "value": {
+                        "translate": "item.expension.protean_edge.3.description_1"
+                    }
+                }
+            },
+            {
+                "amount": -3.5,
+                "id": "expension:protean_edge",
+                "operation": "add_value",
+                "type": "attack_speed",
+                "slot": "mainhand",
+                "display": {
+                    "type": "override",
+                    "value": {
+                            "translate": "item.expension.protean_edge.3.description_2"
+                    }
+                }
+            }
+        ],
+        "weapon": {
+            "disable_blocking_for_seconds": 0,
+            "item_damage_per_attack": 4
+        },
+        "swing_animation": {
+            "duration": 4
+        },
+        "minimum_attack_charge": 1,
+        "attack_range": {
+            "max_reach": 4,
+            "hitbox_margin": 0
+        }
+    }
+}

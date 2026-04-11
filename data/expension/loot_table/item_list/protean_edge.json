@@ -1,0 +1,84 @@
+{
+    "pools": [
+      {
+        "entries": [
+          {
+            "type": "item",
+            "name": "copper_sword",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "custom_item": true,
+                    "id": "expension:protean_edge",
+                    "type": 0
+                  },
+                  "item_model": "expension:protean_edge/0",
+                  "item_name": [
+                    {
+                    "translate": "item.expension.protean_edge"
+                    },
+                    {
+                    "translate": "item.expension.protean_edge.0"
+                    }
+                  ],
+                  "max_damage": 2031,
+                  "enchantable": {
+                    "value": 15
+                  },
+                  "use_effects": {
+                    "can_sprint": true,
+                    "speed_multiplier": 1
+                  },
+                  "consumable": {
+                    "animation": "none",
+                    "consume_seconds": 999999999999999999,
+                    "has_consume_particles": false,
+                    "sound": "intentionally_empty"
+                  },
+                  "attribute_modifiers": [
+                    {
+                      "amount": 6,
+                      "id": "expension:protean_edge",
+                      "operation": "add_value",
+                      "type": "attack_damage",
+                      "slot": "mainhand",
+                      "display": {
+                        "type": "override",
+                        "value": {
+                          "translate": "item.expension.protean_edge.0.description_1"
+                        }
+                      }
+                    },
+                    {
+                      "amount": -2.4,
+                      "id": "expension:protean_edge",
+                      "operation": "add_value",
+                      "type": "attack_speed",
+                      "slot": "mainhand",
+                      "display": {
+                        "type": "override",
+                        "value": {
+                          "translate": "item.expension.protean_edge.0.description_2"
+                        }
+                      }
+                    }
+                  ],
+                  "rarity": "epic",
+                  "weapon": {
+                      "disable_blocking_for_seconds": 0,
+                      "item_damage_per_attack": 1
+                  },
+                  "swing_animation": {
+                      "duration": 6
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  }

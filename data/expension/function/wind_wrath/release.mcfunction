@@ -14,5 +14,5 @@ execute if predicate expension:holding/wind_wrath/sweeping_edge_lv3 run data mer
 scoreboard players set @n[tag=expension_wind_wrath_storm] expension_wind_wrath 15
 
 scoreboard players set @s expension_wind_wrath 50
-execute if predicate expension:holding/wind_wrath/mainhand run return run item modify entity @s[gamemode=!creative] weapon.mainhand expension:set_damage/damage0.001
-execute if predicate expension:holding/wind_wrath/offhand run return run item modify entity @s[gamemode=!creative] weapon.offhand expension:set_damage/damage0.001
+execute if predicate expension:holding/wind_wrath/mainhand run return run item modify entity @s[gamemode=!creative] weapon.mainhand expension:set_damage/damage0.0005
+execute if predicate expension:holding/wind_wrath/offhand run return run item modify entity @s[gamemode=!creative] weapon.offhand expension:set_damage/damage0.0005

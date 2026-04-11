@@ -10,7 +10,7 @@
             "type": "add",
             "value": {
               "type": "linear",
-              "base": 0.6,
+              "base": 0.8,
               "per_level_above_first": 0.3
             }
           }
@@ -52,7 +52,7 @@
             "magnitude": {
               "type": "linear",
               "base": 0.4,
-              "per_level_above_first": 0.1
+              "per_level_above_first": 0.075
             }
           }
         },
@@ -97,7 +97,11 @@
         {
           "id": "expension:tremor",
           "attribute": "attack_speed",
-          "amount": -3.2,
+          "amount": {
+            "type": "linear",
+            "base": -3.2,
+            "per_level_above_first": 0.1
+          },
           "operation": "add_value"
         },
         {
@@ -105,7 +109,7 @@
           "attribute": "attack_damage",
           "amount": {
             "type": "linear",
-            "base": 3,
+            "base": 4,
             "per_level_above_first": 1
           },
           "operation": "add_value"
@@ -124,7 +128,7 @@
     "slots": [
       "mainhand"
     ],
-    "exclusive_set": "#exclusive_set/shield",
+    "exclusive_set": "#expension:exclusive_set/tremor",
     "supported_items": "minecraft:shield",
     "weight": 1
 }

@@ -1,0 +1,31 @@
+{
+    "function": "set_components",
+    "components": {
+        "custom_data": {
+            "custom_item": true,
+            "id": "expension:protean_edge",
+            "type": 7
+        },
+        "item_model": "expension:protean_edge/7",
+        "item_name": [
+            {
+                "translate": "item.expension.protean_edge"
+            },
+            {
+                "translate": "item.expension.protean_edge.7"
+            }
+        ],
+        "attribute_modifiers": [
+        ],
+        "weapon": {
+            "disable_blocking_for_seconds": 0,
+            "item_damage_per_attack": 0
+        },
+        "swing_animation": {
+            "duration": 6
+        },
+        "minimum_attack_charge": 0,
+        "attack_range": {
+        }
+    }
+}

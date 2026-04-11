@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "expension:enchantment/impetus/lv1": {
+      "trigger": "using_item",
+      "conditions": {
+                "item": {
+                    "predicates": {
+                        "enchantments": [
+                          {
+                            "enchantments": "expension:impetus",
+                            "levels": 1
+                          }
+                        ]
+                    }
+                }
+            }
+    }
+  },
+  "rewards": {
+    "function": "expension:enchantment/impetus/lv1"
+  }
+}

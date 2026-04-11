@@ -17,20 +17,6 @@
                   "item_name": {
                     "translate": "item.expension.terra_greataxe"
                   },
-                  "lore": [
-                    {
-                      "text": ""
-                    },
-                    {
-                      "translate": "item.expension.terra_greataxe.description_1"
-                    },
-                    {
-                      "translate": "item.expension.terra_greataxe.description_2"
-                    },
-                    {
-                      "translate": "item.expension.terra_greataxe.description_3"
-                    }
-                  ],
                   "max_damage": 731,
                   "attribute_modifiers": [
                     {
@@ -38,21 +24,39 @@
                       "id": "expension:terra_greataxe",
                       "operation": "add_value",
                       "type": "attack_damage",
-                      "slot": "mainhand"
-                    },
-                    {
-                      "amount": 0.5,
-                      "id": "expension:terra_greataxe",
-                      "operation": "add_value",
-                      "type": "attack_knockback",
-                      "slot": "mainhand"
+                      "slot": "mainhand",
+                      "display": {
+                        "type": "override",
+                        "value": {
+                          "translate": "item.expension.terra_greataxe.description_1"
+                        }
+                      }
                     },
                     {
                       "amount": -3.1,
                       "id": "expension:terra_greataxe",
                       "operation": "add_value",
                       "type": "attack_speed",
-                      "slot": "mainhand"
+                      "slot": "mainhand",
+                      "display": {
+                        "type": "override",
+                        "value": {
+                          "translate": "item.expension.terra_greataxe.description_2"
+                        }
+                      }
+                    },
+                    {
+                      "amount": 0.5,
+                      "id": "expension:terra_greataxe",
+                      "operation": "add_value",
+                      "type": "attack_knockback",
+                      "slot": "mainhand",
+                      "display": {
+                        "type": "override",
+                        "value": {
+                          "translate": "item.expension.terra_greataxe.description_3"
+                        }
+                      }
                     }
                   ],
                   "tool": {
@@ -66,11 +70,6 @@
                   },
                   "weapon": {
                     "disable_blocking_for_seconds": 10
-                  },
-                  "tooltip_display": {
-                    "hidden_components": [
-                      "attribute_modifiers"
-                    ]
                   },
                   "rarity": "epic"
                 }

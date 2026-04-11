@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "expension:enchantment/impetus/clear": {
+      "trigger": "using_item",
+      "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                          "impetus": true
+                        }
+                    }
+                }
+            }
+    }
+  },
+  "rewards": {
+    "function": "expension:enchantment/impetus/clear"
+  }
+}

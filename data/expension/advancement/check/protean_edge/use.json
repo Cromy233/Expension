@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "expension:protean_edge/charge": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "id": "expension:protean_edge"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:protean_edge/use"
+    }
+}

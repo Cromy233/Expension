@@ -60,13 +60,7 @@
             },
             {
               "function": "enchant_randomly",
-              "options": [
-                "unbreaking",
-                "expension:parry",
-                "mending",
-                "expension:tremor",
-                "expension:deflect"
-              ]
+              "options": "#expension:shield"
             }
           ],
           "value": "expension:item_list/reinforced_shield",

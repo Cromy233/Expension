@@ -17,23 +17,6 @@
                   "item_name": {
                     "translate": "item.expension.wind_wrath"
                   },
-                  "lore": [
-                    {
-                      "text": ""
-                    },
-                    {
-                      "translate": "item.expension.wind_wrath.description_1"
-                    },
-                    {
-                      "translate": "item.expension.wind_wrath.description_2"
-                    },
-                    {
-                      "translate": "item.expension.wind_wrath.description_3"
-                    },
-                    {
-                      "translate": "item.expension.wind_wrath.description_4"
-                    }
-                  ],
                   "max_damage": 2031,
                   "enchantable": {
                     "value": 15
@@ -54,7 +37,7 @@
                     ],
                     "item_damage": {
                       "base": 0,
-                      "factor": 0.25,
+                      "factor": 0.5,
                       "threshold": 1
                     }
                   },
@@ -64,28 +47,41 @@
                       "id": "expension:wind_wrath",
                       "operation": "add_value",
                       "type": "attack_damage",
-                      "slot": "mainhand"
+                      "slot": "mainhand",
+                      "display": {
+                        "type": "override",
+                        "value": {
+                          "translate": "item.expension.wind_wrath.description_1"
+                        }
+                      }
                     },
                     {
                       "amount": -2.3,
                       "id": "expension:wind_wrath",
                       "operation": "add_value",
                       "type": "attack_speed",
-                      "slot": "mainhand"
+                      "slot": "mainhand",
+                      "display": {
+                        "type": "override",
+                        "value": {
+                          "translate": "item.expension.wind_wrath.description_2"
+                        }
+                      }
                     },
                     {
                       "amount": -0.5,
                       "id": "expension:wind_wrath",
                       "operation": "add_multiplied_base",
                       "type": "fall_damage_multiplier",
-                      "slot": "hand"
+                      "slot": "hand",
+                      "display": {
+                        "type": "override",
+                        "value": {
+                          "translate": "item.expension.wind_wrath.description_3"
+                        }
+                      }
                     }
                   ],
-                  "tooltip_display": {
-                    "hidden_components": [
-                      "attribute_modifiers"
-                    ]
-                  },
                   "rarity": "epic"
                 }
               }

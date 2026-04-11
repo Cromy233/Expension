@@ -17,25 +17,6 @@
                   "item_name": {
                     "translate": "item.expension.thunder_dagger"
                   },
-                  "lore": [
-                    {
-                      "text": ""
-                    },
-                    {
-                      "translate": "item.expension.thunder_dagger_legacy.description_1"
-                    },
-                    {
-                      "translate": "item.expension.thunder_dagger_legacy.description_2"
-                    },
-                    {
-                      "translate": "item.expension.thunder_dagger_legacy.description_3"
-                    }
-                  ],
-                  "tooltip_display": {
-                    "hidden_components": [
-                      "attribute_modifiers"
-                    ]
-                  },
                   "max_damage": 1561,
                   "attribute_modifiers": [
                     {
@@ -43,14 +24,26 @@
                       "id": "expension:thunder_dagger_legacy",
                       "operation": "add_value",
                       "type": "attack_damage",
-                      "slot": "mainhand"
+                      "slot": "mainhand",
+                      "display": {
+                        "type": "override",
+                        "value": {
+                          "translate": "item.expension.thunder_dagger_legacy.description_1"
+                        }
+                      }
                     },
                     {
                       "amount": -3,
                       "id": "expension:thunder_dagger_legacy",
                       "operation": "add_value",
                       "type": "attack_speed",
-                      "slot": "mainhand"
+                      "slot": "mainhand",
+                      "display": {
+                        "type": "override",
+                        "value": {
+                          "translate": "item.expension.thunder_dagger_legacy.description_2"
+                        }
+                      }
                     }
                   ],
                   "blocks_attacks": {

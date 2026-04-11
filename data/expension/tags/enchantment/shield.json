@@ -1,0 +1,11 @@
+{
+    "values": [
+        "minecraft:unbreaking",
+        "minecraft:mending",
+        "expension:deflect",
+        "expension:parry",
+        "expension:steadiness",
+        "expension:tremor",
+        "expension:impetus"
+    ]
+}
