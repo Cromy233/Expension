@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "expension:protean_edge/attack": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_direct": true
+                    }
+                },
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "predicates": {
+                                "custom_data": {
+                                    "id": "expension:protean_edge"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "expension:protean_edge/attack"
+    }
+}

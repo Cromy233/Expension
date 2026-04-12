@@ -1,7 +1,0 @@
-{
-    "function": "set_enchantments",
-    "add": true,
-    "enchantments": {
-        "sharpness": 1
-    }
-}

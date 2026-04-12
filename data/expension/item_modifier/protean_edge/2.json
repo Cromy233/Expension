@@ -58,6 +58,7 @@
         "tool": {
             "can_destroy_blocks_in_creative": false,
             "rules": []
-        }
+        },
+        "max_stack_size": 1
     }
 }

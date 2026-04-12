@@ -1,0 +1,16 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "predicates": {
+                    "custom_data": {
+                        "id": "expension:protean_edge",
+                        "type": 3
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+$execute as @n[nbt={last_hurt_by_player:$(UUID),HurtTime:10s},type=#expension:include_player,tag=!expension_protean_edge_katana] run tag @s add expension_protean_edge_katana

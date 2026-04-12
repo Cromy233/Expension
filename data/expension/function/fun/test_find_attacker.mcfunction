@@ -1,0 +1,1 @@
+$execute as @n[nbt={last_hurt_by_player:$(UUID)},distance=..16,type=#expension:include_player,tag=!test_find_attacker] run tag @s add test_find_attacker
