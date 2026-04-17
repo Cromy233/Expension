@@ -17,7 +17,7 @@
         ],
         "attribute_modifiers": [
             {
-                "amount": 4,
+                "amount": 5,
                 "id": "expension:protean_edge",
                 "operation": "add_value",
                 "type": "attack_damage",
@@ -48,7 +48,8 @@
             "item_damage_per_attack": 1
         },
         "swing_animation": {
-            "duration": 4
+            "duration": 6,
+            "type": "stab"
         },
         "minimum_attack_charge": 0,
         "attack_range": {

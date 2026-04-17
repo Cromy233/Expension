@@ -1,6 +1,24 @@
 {
-    "model": {
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "expension:item/protean_edge/2"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
       "type": "minecraft:model",
-      "model": "expension:item/protean_edge/2"
-    }
+      "model": "expension:item/protean_edge/2_in_hand"
+    },
+    "property": "minecraft:display_context"
   }
+}

@@ -48,9 +48,10 @@
             "item_damage_per_attack": 4
         },
         "swing_animation": {
-            "duration": 4
+            "duration": 4,
+            "type": "whack"
         },
-        "minimum_attack_charge": 0.5,
+        "minimum_attack_charge": 0.9,
         "attack_range": {
             "max_reach": 4,
             "hitbox_margin": 0

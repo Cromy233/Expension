@@ -1,0 +1,18 @@
+{
+    "parent": "item/handheld",
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [ -20, -90, 35 ],
+            "translation": [ 1.13, 3.2, 1.13 ],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ -20, 90, -35 ],
+            "translation": [ 1.13, 3.2, 1.13 ],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        }
+    },
+    "textures": {
+        "layer0": "expension:item/protean_edge/2"
+    }
+}
