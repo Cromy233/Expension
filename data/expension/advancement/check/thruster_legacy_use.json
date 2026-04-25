@@ -1,7 +1,7 @@
 {
     "criteria": {
-        "expension:thruster_use": {
-            "trigger": "using_item",
+        "expension:thruster_legacy_use": {
+            "trigger": "consume_item",
             "conditions": {
                 "item": {
                     "predicates": {
@@ -11,12 +11,7 @@
                             }
                         ],
                         "custom_data": {
-                            "id": "expension:thruster"
-                        },
-                        "damage": {
-                            "damage": {
-                                "max": 10000
-                            }
+                            "id": "expension:thruster_legacy"
                         }
                     }
                 }
@@ -24,6 +19,6 @@
         }
     },
     "rewards": {
-        "function": "expension:thruster/use"
+        "function": "expension:thruster/legacy_use"
     }
 }

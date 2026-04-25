@@ -1,0 +1,25 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "predicates": {
+                            "enchantments": [
+                                {
+                                    "enchantments": "expension:thruster"
+                                }
+                            ],
+                            "custom_data": {
+                                "id": "expension:thruster"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

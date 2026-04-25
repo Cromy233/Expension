@@ -12,7 +12,10 @@
                                 {
                                     "enchantments": "expension:thruster"
                                 }
-                            ]
+                            ],
+                            "custom_data": {
+                                "id": "expension:thruster_legacy"
+                            }
                         }
                     }
                 }
@@ -29,7 +32,10 @@
                                 {
                                     "enchantments": "expension:thruster"
                                 }
-                            ]
+                            ],
+                            "custom_data": {
+                                "id": "expension:thruster_legacy"
+                            }
                         }
                     }
                 }

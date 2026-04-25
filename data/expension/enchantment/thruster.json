@@ -20,7 +20,7 @@
                 "condition": "entity_scores",
                 "entity": "this",
                 "scores": {
-                  "expension_thruster": {
+                  "expension_thruster_effect": {
                     "min": 10
                   }
                 }
@@ -35,7 +35,7 @@
                 "condition": "entity_scores",
                 "entity": "this",
                 "scores": {
-                  "expension_thruster": {
+                  "expension_thruster_effect": {
                     "min": 1
                   }
                 }

@@ -11,25 +11,23 @@
                 "components": {
                   "custom_data": {
                     "custom_item": true,
-                    "id": "expension:thruster"
+                    "id": "expension:thruster_legacy"
                   },
                   "item_model": "expension:thruster",
                   "item_name": {
                     "translate": "item.expension.thruster"
                   },
+                  "max_stack_size": 99,
+                  "use_cooldown": {
+                    "cooldown_group": "expension:thruster_legacy",
+                    "seconds": 0.5
+                  },
                   "consumable": {
-                    "consume_seconds": 999999999999999999,
-                    "animation": "none",
+                    "animation": "spear",
+                    "consume_seconds": 0,
                     "has_consume_particles": false,
                     "sound": "intentionally_empty"
                   },
-                  "use_effects": {
-                    "can_sprint": true,
-                    "speed_multiplier": 1
-                  },
-                  "max_stack_size": 1,
-                  "max_damage": 10001,
-                  "damage": 1,
                   "enchantments": {
                     "expension:thruster": 15
                   },
