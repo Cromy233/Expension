@@ -1,6 +1,6 @@
 {
     "type": "stonecutting",
-    "ingredient": "minecraft:recovery_compass",
+    "ingredient": "minecraft:resin_brick",
     "result": {
         "id": "minecraft:recovery_compass",
         "components": {
