@@ -1,0 +1,2 @@
+$execute if entity @e[tag=expension_portal,nbt={data:{Owner:$(UUID)}}] run return run function expension:portal_potion/telepoint {Owner:$(UUID)}
+$return run function expension:portal_potion/create {Owner:$(UUID)}

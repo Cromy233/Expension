@@ -14,6 +14,6 @@
         }
     },
     "rewards": {
-        "function": "expension:create_portal"
+        "function": "expension:portal_potion/consume"
     }
 }

@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": {
+      "respawn": {
+        "dimension": "minecraft:the_end"
+      }
+    }
+  }
+}
