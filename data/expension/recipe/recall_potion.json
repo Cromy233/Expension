@@ -13,28 +13,31 @@
     "result": {
         "id": "minecraft:potion",
         "components": {
-                "custom_data": {
-                  "custom_item": true,
-                  "id": "expension:recall_potion"
-                },
-                "item_model": "expension:recall_potion",
-                "consumable": {
-                  "animation": "drink",
-                  "has_consume_particles": false,
-                  "sound": "entity.generic.drink"
-                },
-                "potion_contents": {
-                  "custom_color": 3786171,
-                  "custom_name": "recall",
-                  "custom_effects": [
-                    {
-                      "id": "weakness",
-                      "duration": 1200,
-                      "show_particles": false
-                    }
-                  ]
-                },
-                "enchantment_glint_override": true
+          "custom_data": {
+            "custom_item": true,
+            "id": "expension:recall_potion"
+          },
+          "item_model": "expension:recall_potion",
+          "consumable": {
+            "animation": "drink",
+            "has_consume_particles": false,
+            "sound": "entity.generic.drink"
+          },
+          "use_remainder": {
+            "id": "glass_bottle"
+          },
+          "potion_contents": {
+            "custom_color": 3786171,
+            "custom_name": "recall",
+            "custom_effects": [
+              {
+                "id": "weakness",
+                "duration": 1200,
+                "show_particles": false
               }
+            ]
+          },
+          "enchantment_glint_override": true
+        }
     }
 }
