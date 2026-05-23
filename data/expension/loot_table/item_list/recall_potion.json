@@ -19,6 +19,9 @@
                   "has_consume_particles": false,
                   "sound": "entity.generic.drink"
                 },
+                "use_remainder": {
+                  "id": "glass_bottle"
+                },
                 "potion_contents": {
                   "custom_color": 3786171,
                   "custom_name": "recall",

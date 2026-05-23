@@ -1,6 +1,7 @@
 {
-  "pack": {
-    "description": "Just Expensions!",
-    "pack_format": 101
-  }
+    "pack": {
+      "description": "Just Expensions!",
+      "min_format": [101, 1],
+      "max_format": [101, 1]
+    }
 }
