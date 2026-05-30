@@ -1,6 +1,6 @@
 {
     "model": {
       "type": "minecraft:model",
-      "model": "expension:item/music_disc_groove_33edo"
+      "model": "expension:item/music_disc/groove_33edo"
     }
   }

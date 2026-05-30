@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "expension:item/frost_bow"
+        "layer0": "expension:item/frost_bow/default"
     },
     "display": {
         "thirdperson_righthand": {

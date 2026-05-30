@@ -1,6 +1,6 @@
 {
     "model": {
       "type": "minecraft:model",
-      "model": "expension:item/wooden_crate"
+      "model": "expension:item/wooden_crate/default"
     }
 }

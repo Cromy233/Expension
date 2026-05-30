@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/crossbow",
   "textures": {
-    "layer0": "expension:item/impulse_crossbow_firework"
+    "layer0": "expension:item/impulse_crossbow/firework"
   }
 }

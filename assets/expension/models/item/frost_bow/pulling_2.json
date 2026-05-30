@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/bow",
   "textures": {
-    "layer0": "expension:item/frost_bow_pulling_2"
+    "layer0": "expension:item/frost_bow/pulling_2"
   }
 }

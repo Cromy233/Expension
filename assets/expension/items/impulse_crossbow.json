@@ -5,14 +5,14 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "expension:item/impulse_crossbow_arrow"
+          "model": "expension:item/impulse_crossbow/arrow"
         },
         "when": "arrow"
       },
       {
         "model": {
           "type": "minecraft:model",
-          "model": "expension:item/impulse_crossbow_firework"
+          "model": "expension:item/impulse_crossbow/firework"
         },
         "when": "rocket"
       }
@@ -21,7 +21,7 @@
       "type": "minecraft:condition",
       "on_false": {
         "type": "minecraft:model",
-        "model": "expension:item/impulse_crossbow"
+        "model": "expension:item/impulse_crossbow/standby"
       },
       "on_true": {
         "type": "minecraft:range_dispatch",
@@ -29,21 +29,21 @@
           {
             "model": {
               "type": "minecraft:model",
-              "model": "expension:item/impulse_crossbow_pulling_1"
+              "model": "expension:item/impulse_crossbow/pulling_1"
             },
             "threshold": 0.58
           },
           {
             "model": {
               "type": "minecraft:model",
-              "model": "expension:item/impulse_crossbow_pulling_2"
+              "model": "expension:item/impulse_crossbow/pulling_2"
             },
             "threshold": 1.0
           }
         ],
         "fallback": {
           "type": "minecraft:model",
-          "model": "expension:item/impulse_crossbow_pulling_0"
+          "model": "expension:item/impulse_crossbow/pulling_0"
         },
         "property": "minecraft:crossbow/pull"
       },

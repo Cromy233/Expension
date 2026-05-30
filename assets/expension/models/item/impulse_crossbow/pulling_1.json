@@ -1,0 +1,6 @@
+{
+  "parent": "item/crossbow",
+  "textures": {
+    "layer0": "expension:item/impulse_crossbow/pulling_1"
+  }
+}
